@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{879169BE-D767-4AD6-A66F-137925064582}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YXControl</RootNamespace>
+    <AssemblyName>YXControl</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Office, Version=2.1.0.0, Culture=neutral" />
+    <Reference Include="Interop.VBIDE, Version=5.3.0.0, Culture=neutral" />
+    <Reference Include="Interop.Word, Version=8.1.0.0, Culture=neutral" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalendarCell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CalendarCell.Designer.cs">
+      <DependentUpon>CalendarCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxExpend.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CommonButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonButton.Designer.cs">
+      <DependentUpon>CommonButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlassButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlassButton.designer.cs">
+      <DependentUpon>GlassButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HtmlEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HtmlEditor.designer.cs">
+      <DependentUpon>HtmlEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IconWords.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IconWords.Designer.cs">
+      <DependentUpon>IconWords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListControl.designer.cs">
+      <DependentUpon>ListControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListExpand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListExpand.designer.cs">
+      <DependentUpon>ListExpand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RuningTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RuningTask.Designer.cs">
+      <DependentUpon>RuningTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scrollbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scrollbar.Designer.cs">
+      <DependentUpon>Scrollbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskTip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskTip.Designer.cs">
+      <DependentUpon>TaskTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thumbnail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Thumbnail.designer.cs">
+      <DependentUpon>Thumbnail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimerTreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimerTreeView.designer.cs">
+      <DependentUpon>TimerTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TreeView.designer.cs">
+      <DependentUpon>TreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WordControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CalendarCell.resx">
+      <DependentUpon>CalendarCell.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonButton.resx">
+      <DependentUpon>CommonButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlassButton.resx">
+      <DependentUpon>GlassButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HtmlEditor.resx">
+      <DependentUpon>HtmlEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IconWords.resx">
+      <DependentUpon>IconWords.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListControl.resx">
+      <DependentUpon>ListControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListExpand.resx">
+      <DependentUpon>ListExpand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RuningTask.resx">
+      <DependentUpon>RuningTask.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scrollbar.resx">
+      <DependentUpon>Scrollbar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskTip.resx">
+      <DependentUpon>TaskTip.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thumbnail.resx">
+      <DependentUpon>Thumbnail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimerTreeView.resx">
+      <DependentUpon>TimerTreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreeView.resx">
+      <DependentUpon>TreeView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WordControl.resx">
+      <DependentUpon>WordControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
