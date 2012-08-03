@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4FC48AB0-4B85-40F4-A4FA-5871780A00E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VSDT</RootNamespace>
+    <AssemblyName>VSDT.Core</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\BinResult\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="COM.Excel, Version=1.1.1606.17082, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceLib\COM.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\EnvDTE.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\EnvDTE80.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE90, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\EnvDTE90.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel, Version=1.5.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Common\Lib\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.IWshRuntimeLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceLib\Interop.IWshRuntimeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceLib\Microsoft.VisualStudio.OLE.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.9.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceLib\Microsoft.VisualStudio.Shell.9.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceLib\Microsoft.VisualStudio.Shell.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceLib\Microsoft.VisualStudio.Shell.Interop.8.0.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceLib\Microsoft.VisualStudio.Shell.Interop.9.0.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\FtpHelper\FtpController.cs" />
+    <Compile Include="Common\Program.cs" />
+    <Compile Include="Common\Tools\MachineHelp.cs" />
+    <Compile Include="Common\Tools\NotifyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Utility\DataToExcel.cs" />
+    <Compile Include="Common\Utility\DESFile.cs" />
+    <Compile Include="Common\Utility\RMB.cs" />
+    <Compile Include="Common\Utility\UtilityEnvironment.cs" />
+    <Compile Include="Common\Guard.cs" />
+    <Compile Include="Common\LogHelper\Log.cs" />
+    <Compile Include="Common\Tools\FormGenConfigClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Tools\FormGenConfigClass.Designer.cs">
+      <DependentUpon>FormGenConfigClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Tools\Resizer.cs" />
+    <Compile Include="Common\Utility\ControlOperate.cs" />
+    <Compile Include="Common\Utility\CreateShortcut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\Utility\CreateShortcut.designer.cs">
+      <DependentUpon>CreateShortcut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Utility\FileOperation.cs" />
+    <Compile Include="Common\Utility\StringOperation.cs" />
+    <Compile Include="Common\Utility\UtilityFile.cs" />
+    <Compile Include="Common\Utility\UtilityReflector.cs" />
+    <Compile Include="Common\XML\XMLConfigUtility.cs" />
+    <Compile Include="ConstantString.cs" />
+    <Compile Include="Core\Commands\BaseCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\BaseCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\CommandEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\CommandID.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\CommandMenuCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\ICommandManagerService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\MenuManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\PlaceMenuCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Commands\VSMenuCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\EnumsCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\Framework.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\FrameworkOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\IFramework.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\IPlugInPackage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\NotUsed\Collection.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Core\NotUsed\CommandItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\NotUsed\CommandManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\NotUsed\CommandStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\NotUsed\Extensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\NotUsed\ItemBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\Config\PlugInData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\Config\PlugInDataParse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\Config\PlugInList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\Interface\IPlugIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\Interface\IPlugInContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\Interface\IPlugInEntryPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\Interface\IPlugInFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\Interface\IPlugInManager.cs" />
+    <Compile Include="Core\PlugIns\PlugIn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\PlugInContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\PlugInFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\PlugInInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\PlugInManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlugIns\PlugInRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\PlunInRuntime.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Core\ToolWindows\ToolWindowEX.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Options\Class1.cs" />
+    <Compile Include="Options\IOption.cs" />
+    <Compile Include="Options\OptionNode.cs" />
+    <Compile Include="Options\Settings.cs" />
+    <Compile Include="UIControl\DynamicTree\DynamicTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControl\DynamicTree\DynamicTree.Designer.cs">
+      <DependentUpon>DynamicTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\DynamicTree\FormAddTreeNode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIControl\DynamicTree\FormAddTreeNode.Designer.cs">
+      <DependentUpon>FormAddTreeNode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIControl\FormOptionPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIControl\FormOptionPage.designer.cs">
+      <DependentUpon>FormOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\FormOptionPage2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIControl\FormOptionPage2.designer.cs">
+      <DependentUpon>FormOptionPage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\UCMenuAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControl\UCMenuAdmin.Designer.cs">
+      <DependentUpon>UCMenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControl\UCPluginConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControl\UCPluginConfig.Designer.cs">
+      <DependentUpon>UCPluginConfig.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\Tools\FormGenConfigClass.resx">
+      <DependentUpon>FormGenConfigClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Tools\NotifyWindow.resx">
+      <DependentUpon>NotifyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Utility\CreateShortcut.resx">
+      <DependentUpon>CreateShortcut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\DynamicTree\DynamicTree.resx">
+      <DependentUpon>DynamicTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\DynamicTree\FormAddTreeNode.resx">
+      <DependentUpon>FormAddTreeNode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\FormOptionPage.resx">
+      <DependentUpon>FormOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\FormOptionPage2.resx">
+      <DependentUpon>FormOptionPage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\UCMenuAdmin.resx">
+      <DependentUpon>UCMenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControl\UCPluginConfig.resx">
+      <DependentUpon>UCPluginConfig.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="functionlist.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Options\ClassDiagram1.cd" />
+    <None Include="Options\ClassDiagramOptions.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\Data\" />
+    <Folder Include="Common\ExceptionEX\" />
+    <Folder Include="Core\Commands\NewFolder1\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

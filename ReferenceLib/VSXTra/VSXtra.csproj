@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C6D8E7F-2CC4-431D-8D96-1BB86F869DE8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VSXtra</RootNamespace>
+    <AssemblyName>VSXtra</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>VSXtraFakeKey.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>%24/iplat4C/trunk/Tools/VSDevelopTool/VSDT/VSXTra</SccProjectName>
+    <SccLocalPath>.</SccLocalPath>
+    <SccAuxPath>http://10.25.18.1:8080</SccAuxPath>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnvDTE, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\EnvDTE.dll</HintPath>
+    </Reference>
+    <Reference Include="EnvDTE80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="EnvDTE90, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\EnvDTE90.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.9.0, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.9.0, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TextManager.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TextManager.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.VSHelp, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.VSHelp80, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\CommandContext.cs" />
+    <Compile Include="Hierarchy\HiddenHierarchyManager.cs" />
+    <Compile Include="Hierarchy\HierarchyAttributes.cs" />
+    <Compile Include="Hierarchy\HierarchyCommand.cs" />
+    <Compile Include="Hierarchy\HierarchyCommandContext.cs" />
+    <Compile Include="Shell\Commands.cs" />
+    <Compile Include="SiteManager\SiteManager.cs" />
+    <Compile Include="Utility\Attributes\Int32Attribute.cs" />
+    <Compile Include="Utility\ImageHandler.cs" />
+    <Compile Include="Utility\Exceptions\WindowPaneNotFoundException.cs" />
+    <Compile Include="Hierarchy\HierarchyId.cs" />
+    <Compile Include="Hierarchy\HierarchyItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\ItemMap.cs" />
+    <Compile Include="Hierarchy\HierarchyNode.cs" />
+    <Compile Include="Hierarchy\HierarchyNodeEventArgs.cs" />
+    <Compile Include="Hierarchy\HierarchyManager.cs" />
+    <Compile Include="Hierarchy\HierarchyProperty.cs" />
+    <Compile Include="Utility\SimpleOleServiceProvider.cs" />
+    <Compile Include="Package\PackageBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Package\RegistrationAttributes\XtraProvideEditorLogicalViewAttribute.cs" />
+    <Compile Include="Package\RegistrationAttributes\XtraProvideOptionDialogPageAttribute.cs" />
+    <Compile Include="Package\RegistrationAttributes\XtraProvideOptionPageAttribute.cs" />
+    <Compile Include="Package\RegistrationAttributes\XtraProvideToolWindowAttribute.cs" />
+    <Compile Include="Package\RegistrationAttributes\XtraProvideAutoLoadAttribute.cs" />
+    <Compile Include="Utility\Attributes\BoolAttribute.cs" />
+    <Compile Include="Utility\Attributes\StringAttribute.cs" />
+    <Compile Include="Utility\Attributes\TypeAttribute.cs" />
+    <Compile Include="Utility\ComHelper.cs" />
+    <Compile Include="Diagnostics\VsDebug.cs" />
+    <Compile Include="Utility\EventHooker.cs" />
+    <Compile Include="Utility\GuidTypes\LogicalView.cs" />
+    <Compile Include="Utility\GuidTypes\UIContext.cs" />
+    <Compile Include="Utility\GuidTypes\WindowKind.cs" />
+    <Compile Include="Utility\CommonExtensions.cs" />
+    <Compile Include="Utility\HelpService.cs" />
+    <Compile Include="Utility\NativeMethods.cs" />
+    <Compile Include="Utility\ResourceResolver.cs" />
+    <Compile Include="Utility\UIHierarchyWindowExtensions.cs" />
+    <Compile Include="Utility\UnsafeNativeMethods.cs" />
+    <Compile Include="Utility\VsxConverter.cs" />
+    <Compile Include="Shell\VSCommands\FileCommands.cs" />
+    <Compile Include="Shell\VSCommands\WindowCommands.cs" />
+    <Compile Include="Diagnostics\ActivityLog.cs" />
+    <Compile Include="Shell\CommonAttributes.cs" />
+    <Compile Include="Commands\ComboCommandHandler.cs" />
+    <Compile Include="Commands\CommandDispatcher.cs" />
+    <Compile Include="Commands\CommandDispatcherAttributes.cs" />
+    <Compile Include="Commands\CommandGroup.cs" />
+    <Compile Include="Commands\CommonActions.cs" />
+    <Compile Include="Commands\MenuCommandAttributes.cs" />
+    <Compile Include="Commands\MenuCommandHandler.cs" />
+    <Compile Include="Commands\Toolbar.cs" />
+    <Compile Include="Windows\DialogPages\DialogPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editors\ICommonEditorCommand.cs" />
+    <Compile Include="Editors\EditorFactoryBase.cs" />
+    <Compile Include="Editors\EditorPaneBase.cs" />
+    <Compile Include="Windows\HierarchyWindow\HierarchyWindowAttributes.cs" />
+    <Compile Include="Windows\HierarchyWindow\UIHierarchyToolWindow.cs" />
+    <Compile Include="Windows\OutputWindow\MissingOutputPaneHandling.cs" />
+    <Compile Include="Windows\OutputWindow\OutputPaneAttributes.cs" />
+    <Compile Include="Windows\OutputWindow\OutputPaneDefinition.cs" />
+    <Compile Include="Windows\OutputWindow\OutputWindow.cs" />
+    <Compile Include="Windows\OutputWindow\OutputWindowPane.cs" />
+    <Compile Include="Package\PackageEntry.cs" />
+    <Compile Include="Package\RegistryEntry.cs" />
+    <Compile Include="Documents\RdtEvents.cs" />
+    <Compile Include="Documents\RdtFlags.cs" />
+    <Compile Include="Documents\RunningDocumentInfo.cs" />
+    <Compile Include="Documents\RunningDocumentTable.cs" />
+    <Compile Include="Selection\CustomTypeDescriptorBase.cs" />
+    <Compile Include="Selection\MonitorSelection.cs" />
+    <Compile Include="Documents\VsDocumentEvents.cs" />
+    <Compile Include="Selection\SelectionTracker.cs" />
+    <Compile Include="Shell\SolutionEventArgs.cs" />
+    <Compile Include="Shell\SolutionEvents.cs" />
+    <Compile Include="Package\ServiceAttributes.cs" />
+    <Compile Include="Package\VsxService.cs" />
+    <Compile Include="Shell\Solution.cs" />
+    <Compile Include="Shell\VsIde.cs" />
+    <Compile Include="Shell\VsMessageBox.cs" />
+    <Compile Include="Package\VsRegistry.cs" />
+    <Compile Include="Shell\VsUIShell.cs" />
+    <Compile Include="Windows\WindowPanes\ClsIdToolWindowPane.cs" />
+    <Compile Include="Windows\WindowPanes\ToolWindowAttributes.cs" />
+    <Compile Include="Windows\WindowPanes\ToolWindowPane.cs" />
+    <Compile Include="Windows\WindowPanes\WindowFrame.cs" />
+    <Compile Include="Windows\WindowPanes\WindowPane.cs" />
+    <Compile Include="Windows\WindowPanes\WindowPanePlaceHolderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Windows\WindowPanes\WpfToolWindowPane.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VSXtraFakeKey.snk" />
+    <None Include="_Diagrams\Hierarchy Structure.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
