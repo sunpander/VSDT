@@ -1,0 +1,2 @@
+运行本程序前，须先注册金山词霸中的XdictGrb.dll组件。
+如果XdictGrb.dll在E盘根目录下，那么运行前请先注册此DLL 命令为：只需在“开始→运行”中键入“Regsvr32 e:\XdictGrb.dll所在目录”即可
