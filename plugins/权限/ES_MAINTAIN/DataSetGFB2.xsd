@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetGFB2" targetNamespace="http://tempuri.org/DataSetGFB2.xsd" xmlns:mstns="http://tempuri.org/DataSetGFB2.xsd" xmlns="http://tempuri.org/DataSetGFB2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetGFB2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetGFB2" msprop:Generator_DataSetName="DataSetGFB2" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_TablePropName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="序号" msprop:Generator_UserColumnName="序号" msprop:Generator_ColumnVarNameInTable="column序号" msprop:Generator_ColumnPropNameInRow="序号" msprop:Generator_ColumnPropNameInTable="序号Column" type="xs:double" minOccurs="0" />
+              <xs:element name="工号" msprop:Generator_UserColumnName="工号" msprop:Generator_ColumnVarNameInTable="column工号" msprop:Generator_ColumnPropNameInRow="工号" msprop:Generator_ColumnPropNameInTable="工号Column" type="xs:string" minOccurs="0" />
+              <xs:element name="姓名" msprop:Generator_UserColumnName="姓名" msprop:Generator_ColumnVarNameInTable="column姓名" msprop:Generator_ColumnPropNameInRow="姓名" msprop:Generator_ColumnPropNameInTable="姓名Column" type="xs:string" minOccurs="0" />
+              <xs:element name="人员组名称" msprop:Generator_UserColumnName="人员组名称" msprop:Generator_ColumnVarNameInTable="column人员组名称" msprop:Generator_ColumnPropNameInRow="人员组名称" msprop:Generator_ColumnPropNameInTable="人员组名称Column" type="xs:string" minOccurs="0" />
+              <xs:element name="人员组代码" msprop:Generator_UserColumnName="人员组代码" msprop:Generator_ColumnVarNameInTable="column人员组代码" msprop:Generator_ColumnPropNameInRow="人员组代码" msprop:Generator_ColumnPropNameInTable="人员组代码Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable2" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_RowClassName="DataTable2Row" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_TablePropName="DataTable2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="序号" msprop:Generator_UserColumnName="序号" msprop:Generator_ColumnVarNameInTable="column序号" msprop:Generator_ColumnPropNameInRow="序号" msprop:Generator_ColumnPropNameInTable="序号Column" type="xs:double" minOccurs="0" />
+              <xs:element name="画面名称" msprop:Generator_UserColumnName="画面名称" msprop:Generator_ColumnVarNameInTable="column画面名称" msprop:Generator_ColumnPropNameInRow="画面名称" msprop:Generator_ColumnPropNameInTable="画面名称Column" type="xs:string" minOccurs="0" />
+              <xs:element name="画面代码" msprop:Generator_UserColumnName="画面代码" msprop:Generator_ColumnVarNameInTable="column画面代码" msprop:Generator_ColumnPropNameInRow="画面代码" msprop:Generator_ColumnPropNameInTable="画面代码Column" type="xs:string" minOccurs="0" />
+              <xs:element name="功能按钮" msprop:Generator_UserColumnName="功能按钮" msprop:Generator_ColumnVarNameInTable="column功能按钮" msprop:Generator_ColumnPropNameInRow="功能按钮" msprop:Generator_ColumnPropNameInTable="功能按钮Column" type="xs:string" minOccurs="0" />
+              <xs:element name="资源组名" msdata:Caption="GROUPNAME" msprop:Generator_UserColumnName="资源组名" msprop:Generator_ColumnVarNameInTable="column资源组名" msprop:Generator_ColumnPropNameInRow="资源组名" msprop:Generator_ColumnPropNameInTable="资源组名Column" type="xs:string" minOccurs="0" />
+              <xs:element name="资源组代码" msprop:Generator_UserColumnName="资源组代码" msprop:Generator_ColumnVarNameInTable="column资源组代码" msprop:Generator_ColumnPropNameInRow="资源组代码" msprop:Generator_ColumnPropNameInTable="资源组代码Column" type="xs:string" minOccurs="0" />
+              <xs:element name="管理员1" msprop:Generator_UserColumnName="管理员1" msprop:Generator_ColumnPropNameInRow="管理员1" msprop:Generator_ColumnVarNameInTable="column管理员1" msprop:Generator_ColumnPropNameInTable="管理员1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="管理员2" msprop:Generator_UserColumnName="管理员2" msprop:Generator_ColumnPropNameInRow="管理员2" msprop:Generator_ColumnVarNameInTable="column管理员2" msprop:Generator_ColumnPropNameInTable="管理员2Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable3" msprop:Generator_UserTableName="DataTable3" msprop:Generator_RowDeletedName="DataTable3RowDeleted" msprop:Generator_RowChangedName="DataTable3RowChanged" msprop:Generator_RowClassName="DataTable3Row" msprop:Generator_RowChangingName="DataTable3RowChanging" msprop:Generator_RowEvArgName="DataTable3RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable3RowChangeEventHandler" msprop:Generator_TableClassName="DataTable3DataTable" msprop:Generator_TableVarName="tableDataTable3" msprop:Generator_RowDeletingName="DataTable3RowDeleting" msprop:Generator_TablePropName="DataTable3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="序号" msprop:Generator_UserColumnName="序号" msprop:Generator_ColumnVarNameInTable="column序号" msprop:Generator_ColumnPropNameInRow="序号" msprop:Generator_ColumnPropNameInTable="序号Column" type="xs:double" minOccurs="0" />
+              <xs:element name="人员组名" msdata:Caption="FNAME" msprop:Generator_UserColumnName="人员组名" msprop:Generator_ColumnVarNameInTable="column人员组名" msprop:Generator_ColumnPropNameInRow="人员组名" msprop:Generator_ColumnPropNameInTable="人员组名Column" type="xs:string" minOccurs="0" />
+              <xs:element name="人员组代码" msdata:Caption="FID" msprop:Generator_UserColumnName="人员组代码" msprop:Generator_ColumnVarNameInTable="column人员组代码" msprop:Generator_ColumnPropNameInRow="人员组代码" msprop:Generator_ColumnPropNameInTable="人员组代码Column" type="xs:string" minOccurs="0" />
+              <xs:element name="资源组名" msdata:Caption="GROUPNAME" msprop:Generator_UserColumnName="资源组名" msprop:Generator_ColumnVarNameInTable="column资源组名" msprop:Generator_ColumnPropNameInRow="资源组名" msprop:Generator_ColumnPropNameInTable="资源组名Column" type="xs:string" minOccurs="0" />
+              <xs:element name="资源组代码" msprop:Generator_UserColumnName="资源组代码" msprop:Generator_ColumnVarNameInTable="column资源组代码" msprop:Generator_ColumnPropNameInRow="资源组代码" msprop:Generator_ColumnPropNameInTable="资源组代码Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable4" msprop:Generator_UserTableName="DataTable4" msprop:Generator_RowDeletedName="DataTable4RowDeleted" msprop:Generator_RowChangedName="DataTable4RowChanged" msprop:Generator_RowClassName="DataTable4Row" msprop:Generator_RowChangingName="DataTable4RowChanging" msprop:Generator_RowEvArgName="DataTable4RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable4RowChangeEventHandler" msprop:Generator_TableClassName="DataTable4DataTable" msprop:Generator_TableVarName="tableDataTable4" msprop:Generator_RowDeletingName="DataTable4RowDeleting" msprop:Generator_TablePropName="DataTable4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="userename" msprop:Generator_UserColumnName="userename" msprop:Generator_ColumnVarNameInTable="columnuserename" msprop:Generator_ColumnPropNameInRow="userename" msprop:Generator_ColumnPropNameInTable="userenameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="usercname" msprop:Generator_UserColumnName="usercname" msprop:Generator_ColumnVarNameInTable="columnusercname" msprop:Generator_ColumnPropNameInRow="usercname" msprop:Generator_ColumnPropNameInTable="usercnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="groupename" msprop:Generator_UserColumnName="groupename" msprop:Generator_ColumnVarNameInTable="columngroupename" msprop:Generator_ColumnPropNameInRow="groupename" msprop:Generator_ColumnPropNameInTable="groupenameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="groupcname" msprop:Generator_UserColumnName="groupcname" msprop:Generator_ColumnVarNameInTable="columngroupcname" msprop:Generator_ColumnPropNameInRow="groupcname" msprop:Generator_ColumnPropNameInTable="groupcnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="errmsg" msdata:Caption="GROUPID" msprop:Generator_UserColumnName="errmsg" msprop:Generator_ColumnVarNameInTable="columnerrmsg" msprop:Generator_ColumnPropNameInRow="errmsg" msprop:Generator_ColumnPropNameInTable="errmsgColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable5" msprop:Generator_UserTableName="DataTable5" msprop:Generator_RowDeletedName="DataTable5RowDeleted" msprop:Generator_RowChangedName="DataTable5RowChanged" msprop:Generator_RowClassName="DataTable5Row" msprop:Generator_RowChangingName="DataTable5RowChanging" msprop:Generator_RowEvArgName="DataTable5RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable5RowChangeEventHandler" msprop:Generator_TableClassName="DataTable5DataTable" msprop:Generator_TableVarName="tableDataTable5" msprop:Generator_RowDeletingName="DataTable5RowDeleting" msprop:Generator_TablePropName="DataTable5">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fname" msprop:Generator_UserColumnName="fname" msprop:Generator_ColumnVarNameInTable="columnfname" msprop:Generator_ColumnPropNameInRow="fname" msprop:Generator_ColumnPropNameInTable="fnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FID" msprop:Generator_UserColumnName="FID" msprop:Generator_ColumnVarNameInTable="columnFID" msprop:Generator_ColumnPropNameInRow="FID" msprop:Generator_ColumnPropNameInTable="FIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="groupname" msdata:Caption="GROUPNAME" msprop:Generator_UserColumnName="groupname" msprop:Generator_ColumnVarNameInTable="columngroupname" msprop:Generator_ColumnPropNameInRow="groupname" msprop:Generator_ColumnPropNameInTable="groupnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RESGROUPID" msprop:Generator_UserColumnName="RESGROUPID" msprop:Generator_ColumnVarNameInTable="columnRESGROUPID" msprop:Generator_ColumnPropNameInRow="RESGROUPID" msprop:Generator_ColumnPropNameInTable="RESGROUPIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="errmsg" msprop:Generator_UserColumnName="errmsg" msprop:Generator_ColumnVarNameInTable="columnerrmsg" msprop:Generator_ColumnPropNameInRow="errmsg" msprop:Generator_ColumnPropNameInTable="errmsgColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable6" msprop:Generator_UserTableName="DataTable6" msprop:Generator_RowDeletedName="DataTable6RowDeleted" msprop:Generator_RowChangedName="DataTable6RowChanged" msprop:Generator_RowClassName="DataTable6Row" msprop:Generator_RowChangingName="DataTable6RowChanging" msprop:Generator_RowEvArgName="DataTable6RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable6RowChangeEventHandler" msprop:Generator_TableClassName="DataTable6DataTable" msprop:Generator_TableVarName="tableDataTable6" msprop:Generator_RowDeletingName="DataTable6RowDeleting" msprop:Generator_TablePropName="DataTable6">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="groupname" msdata:Caption="FNAME" msprop:Generator_UserColumnName="groupname" msprop:Generator_ColumnVarNameInTable="columngroupname" msprop:Generator_ColumnPropNameInRow="groupname" msprop:Generator_ColumnPropNameInTable="groupnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="groupid" msdata:Caption="FID" msprop:Generator_UserColumnName="groupid" msprop:Generator_ColumnVarNameInTable="columngroupid" msprop:Generator_ColumnPropNameInRow="groupid" msprop:Generator_ColumnPropNameInTable="groupidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="resgroupname" msdata:Caption="GROUPNAME" msprop:Generator_UserColumnName="resgroupname" msprop:Generator_ColumnVarNameInTable="columnresgroupname" msprop:Generator_ColumnPropNameInRow="resgroupname" msprop:Generator_ColumnPropNameInTable="resgroupnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="resgroupid" msprop:Generator_UserColumnName="resgroupid" msprop:Generator_ColumnVarNameInTable="columnresgroupid" msprop:Generator_ColumnPropNameInRow="resgroupid" msprop:Generator_ColumnPropNameInTable="resgroupidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="errmsg" msprop:Generator_UserColumnName="errmsg" msprop:Generator_ColumnVarNameInTable="columnerrmsg" msprop:Generator_ColumnPropNameInRow="errmsg" msprop:Generator_ColumnPropNameInTable="errmsgColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

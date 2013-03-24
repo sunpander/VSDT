@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetESOBJ" targetNamespace="http://tempuri.org/DataSetESOBJ.xsd" xmlns:mstns="http://tempuri.org/DataSetESOBJ.xsd" xmlns="http://tempuri.org/DataSetESOBJ.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BSM2ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="BSM2ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.EP.Properties.Settings.GlobalReference.Default.BSM2ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.EP.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.OracleClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetESOBJ" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetESOBJ" msprop:Generator_DataSetName="DataSetESOBJ" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TESBUTTONRESINFO" msprop:Generator_UserTableName="TESBUTTONRESINFO" msprop:Generator_RowDeletedName="TESBUTTONRESINFORowDeleted" msprop:Generator_RowChangedName="TESBUTTONRESINFORowChanged" msprop:Generator_RowClassName="TESBUTTONRESINFORow" msprop:Generator_RowChangingName="TESBUTTONRESINFORowChanging" msprop:Generator_RowEvArgName="TESBUTTONRESINFORowChangeEvent" msprop:Generator_RowEvHandlerName="TESBUTTONRESINFORowChangeEventHandler" msprop:Generator_TableClassName="TESBUTTONRESINFODataTable" msprop:Generator_TableVarName="tableTESBUTTONRESINFO" msprop:Generator_RowDeletingName="TESBUTTONRESINFORowDeleting" msprop:Generator_TablePropName="TESBUTTONRESINFO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAME" msdata:Caption="按钮名" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FNAME" msdata:Caption="所属画面" msprop:Generator_UserColumnName="FNAME" msprop:Generator_ColumnPropNameInRow="FNAME" msprop:Generator_ColumnVarNameInTable="columnFNAME" msprop:Generator_ColumnPropNameInTable="FNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ACLID" msprop:Generator_UserColumnName="ACLID" msprop:Generator_ColumnPropNameInRow="ACLID" msprop:Generator_ColumnVarNameInTable="columnACLID" msprop:Generator_ColumnPropNameInTable="ACLIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msdata:Caption="按钮描述" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OPTYPE" msdata:Caption="操作类型" msprop:Generator_UserColumnName="OPTYPE" msprop:Generator_ColumnPropNameInRow="OPTYPE" msprop:Generator_ColumnVarNameInTable="columnOPTYPE" msprop:Generator_ColumnPropNameInTable="OPTYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="APPNAME" msdata:Caption="子系统" msprop:Generator_UserColumnName="APPNAME" msprop:Generator_ColumnPropNameInRow="APPNAME" msprop:Generator_ColumnVarNameInTable="columnAPPNAME" msprop:Generator_ColumnPropNameInTable="APPNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="selected" msdata:Caption="选择" msprop:Generator_UserColumnName="selected" msprop:Generator_ColumnVarNameInTable="columnselected" msprop:Generator_ColumnPropNameInRow="selected" msprop:Generator_ColumnPropNameInTable="selectedColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESFORMRESINFO" msprop:Generator_UserTableName="TESFORMRESINFO" msprop:Generator_RowDeletedName="TESFORMRESINFORowDeleted" msprop:Generator_RowChangedName="TESFORMRESINFORowChanged" msprop:Generator_RowClassName="TESFORMRESINFORow" msprop:Generator_RowChangingName="TESFORMRESINFORowChanging" msprop:Generator_RowEvArgName="TESFORMRESINFORowChangeEvent" msprop:Generator_RowEvHandlerName="TESFORMRESINFORowChangeEventHandler" msprop:Generator_TableClassName="TESFORMRESINFODataTable" msprop:Generator_TableVarName="tableTESFORMRESINFO" msprop:Generator_RowDeletingName="TESFORMRESINFORowDeleting" msprop:Generator_TablePropName="TESFORMRESINFO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAME" msdata:Caption="画面名" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msdata:Caption="画面描述" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DLLNAME" msdata:Caption="动态库" msprop:Generator_UserColumnName="DLLNAME" msprop:Generator_ColumnPropNameInRow="DLLNAME" msprop:Generator_ColumnVarNameInTable="columnDLLNAME" msprop:Generator_ColumnPropNameInTable="DLLNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ACLID" msprop:Generator_UserColumnName="ACLID" msprop:Generator_ColumnPropNameInRow="ACLID" msprop:Generator_ColumnVarNameInTable="columnACLID" msprop:Generator_ColumnPropNameInTable="ACLIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="ABBREV" msdata:Caption="缩写" msprop:Generator_UserColumnName="ABBREV" msprop:Generator_ColumnPropNameInRow="ABBREV" msprop:Generator_ColumnVarNameInTable="columnABBREV" msprop:Generator_ColumnPropNameInTable="ABBREVColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ICONNUM" msprop:Generator_UserColumnName="ICONNUM" msprop:Generator_ColumnPropNameInRow="ICONNUM" msprop:Generator_ColumnVarNameInTable="columnICONNUM" msprop:Generator_ColumnPropNameInTable="ICONNUMColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="FORM_CALL_MODE" msdata:Caption="调用方式" msprop:Generator_UserColumnName="FORM_CALL_MODE" msprop:Generator_ColumnPropNameInRow="FORM_CALL_MODE" msprop:Generator_ColumnVarNameInTable="columnFORM_CALL_MODE" msprop:Generator_ColumnPropNameInTable="FORM_CALL_MODEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="APPNAME" msdata:Caption="子系统" msprop:Generator_UserColumnName="APPNAME" msprop:Generator_ColumnPropNameInRow="APPNAME" msprop:Generator_ColumnVarNameInTable="columnAPPNAME" msprop:Generator_ColumnPropNameInTable="APPNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DLLPATH" msdata:Caption="程序路径" msprop:Generator_UserColumnName="DLLPATH" msprop:Generator_ColumnPropNameInRow="DLLPATH" msprop:Generator_ColumnVarNameInTable="columnDLLPATH" msprop:Generator_ColumnPropNameInTable="DLLPATHColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="selected" msdata:Caption="选择" msprop:Generator_UserColumnName="selected" msprop:Generator_ColumnVarNameInTable="columnselected" msprop:Generator_ColumnPropNameInRow="selected" msprop:Generator_ColumnPropNameInTable="selectedColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESOTHERRESINFO" msprop:Generator_UserTableName="TESOTHERRESINFO" msprop:Generator_RowDeletedName="TESOTHERRESINFORowDeleted" msprop:Generator_RowChangedName="TESOTHERRESINFORowChanged" msprop:Generator_RowClassName="TESOTHERRESINFORow" msprop:Generator_RowChangingName="TESOTHERRESINFORowChanging" msprop:Generator_RowEvArgName="TESOTHERRESINFORowChangeEvent" msprop:Generator_RowEvHandlerName="TESOTHERRESINFORowChangeEventHandler" msprop:Generator_TableClassName="TESOTHERRESINFODataTable" msprop:Generator_TableVarName="tableTESOTHERRESINFO" msprop:Generator_RowDeletingName="TESOTHERRESINFORowDeleting" msprop:Generator_TablePropName="TESOTHERRESINFO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAME" msdata:Caption="名称" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msdata:Caption="资源描述" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ACLID" msprop:Generator_UserColumnName="ACLID" msprop:Generator_ColumnVarNameInTable="columnACLID" msprop:Generator_ColumnPropNameInRow="ACLID" msprop:Generator_ColumnPropNameInTable="ACLIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="RESOURCETYPE" msdata:Caption="资源类型" msprop:Generator_UserColumnName="RESOURCETYPE" msprop:Generator_ColumnVarNameInTable="columnRESOURCETYPE" msprop:Generator_ColumnPropNameInRow="RESOURCETYPE" msprop:Generator_ColumnPropNameInTable="RESOURCETYPEColumn" type="xs:short" minOccurs="0" />
+              <xs:element name="selected" msdata:Caption="选择" msprop:Generator_UserColumnName="selected" msprop:Generator_ColumnPropNameInRow="selected" msprop:Generator_ColumnVarNameInTable="columnselected" msprop:Generator_ColumnPropNameInTable="selectedColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESFORMPARA" msprop:Generator_UserTableName="TESFORMPARA" msprop:Generator_RowDeletedName="TESFORMPARARowDeleted" msprop:Generator_RowChangedName="TESFORMPARARowChanged" msprop:Generator_RowClassName="TESFORMPARARow" msprop:Generator_RowChangingName="TESFORMPARARowChanging" msprop:Generator_RowEvArgName="TESFORMPARARowChangeEvent" msprop:Generator_RowEvHandlerName="TESFORMPARARowChangeEventHandler" msprop:Generator_TableClassName="TESFORMPARADataTable" msprop:Generator_TableVarName="tableTESFORMPARA" msprop:Generator_RowDeletingName="TESFORMPARARowDeleting" msprop:Generator_TablePropName="TESFORMPARA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REC_CREATOR" msprop:Generator_UserColumnName="REC_CREATOR" msprop:Generator_ColumnVarNameInTable="columnREC_CREATOR" msprop:Generator_ColumnPropNameInRow="REC_CREATOR" msprop:Generator_ColumnPropNameInTable="REC_CREATORColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REC_CREATE_TIME" msprop:Generator_UserColumnName="REC_CREATE_TIME" msprop:Generator_ColumnVarNameInTable="columnREC_CREATE_TIME" msprop:Generator_ColumnPropNameInRow="REC_CREATE_TIME" msprop:Generator_ColumnPropNameInTable="REC_CREATE_TIMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REC_REVISOR" msprop:Generator_UserColumnName="REC_REVISOR" msprop:Generator_ColumnVarNameInTable="columnREC_REVISOR" msprop:Generator_ColumnPropNameInRow="REC_REVISOR" msprop:Generator_ColumnPropNameInTable="REC_REVISORColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REC_REVISE_TIME" msprop:Generator_UserColumnName="REC_REVISE_TIME" msprop:Generator_ColumnVarNameInTable="columnREC_REVISE_TIME" msprop:Generator_ColumnPropNameInRow="REC_REVISE_TIME" msprop:Generator_ColumnPropNameInTable="REC_REVISE_TIMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ARCHIVE_FLAG" msprop:Generator_UserColumnName="ARCHIVE_FLAG" msprop:Generator_ColumnVarNameInTable="columnARCHIVE_FLAG" msprop:Generator_ColumnPropNameInRow="ARCHIVE_FLAG" msprop:Generator_ColumnPropNameInTable="ARCHIVE_FLAGColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FORM_NAME" msdata:Caption="画面名称" msprop:Generator_UserColumnName="FORM_NAME" msprop:Generator_ColumnVarNameInTable="columnFORM_NAME" msprop:Generator_ColumnPropNameInRow="FORM_NAME" msprop:Generator_ColumnPropNameInTable="FORM_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FORM_BASE_NAME" msdata:Caption="基准画面名称" msprop:Generator_UserColumnName="FORM_BASE_NAME" msprop:Generator_ColumnVarNameInTable="columnFORM_BASE_NAME" msprop:Generator_ColumnPropNameInRow="FORM_BASE_NAME" msprop:Generator_ColumnPropNameInTable="FORM_BASE_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PK1" msdata:Caption="关键码1" msprop:Generator_UserColumnName="PK1" msprop:Generator_ColumnVarNameInTable="columnPK1" msprop:Generator_ColumnPropNameInRow="PK1" msprop:Generator_ColumnPropNameInTable="PK1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="PK1_NAME" msdata:Caption="关键码1名称" msprop:Generator_UserColumnName="PK1_NAME" msprop:Generator_ColumnVarNameInTable="columnPK1_NAME" msprop:Generator_ColumnPropNameInRow="PK1_NAME" msprop:Generator_ColumnPropNameInTable="PK1_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PK2" msdata:Caption="关键码2" msprop:Generator_UserColumnName="PK2" msprop:Generator_ColumnVarNameInTable="columnPK2" msprop:Generator_ColumnPropNameInRow="PK2" msprop:Generator_ColumnPropNameInTable="PK2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="PK2_NAME" msdata:Caption="关键码2名称" msprop:Generator_UserColumnName="PK2_NAME" msprop:Generator_ColumnVarNameInTable="columnPK2_NAME" msprop:Generator_ColumnPropNameInRow="PK2_NAME" msprop:Generator_ColumnPropNameInTable="PK2_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PK3" msdata:Caption="关键码3" msprop:Generator_UserColumnName="PK3" msprop:Generator_ColumnVarNameInTable="columnPK3" msprop:Generator_ColumnPropNameInRow="PK3" msprop:Generator_ColumnPropNameInTable="PK3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="PK3_NAME" msdata:Caption="关键码3名称" msprop:Generator_UserColumnName="PK3_NAME" msprop:Generator_ColumnVarNameInTable="columnPK3_NAME" msprop:Generator_ColumnPropNameInRow="PK3_NAME" msprop:Generator_ColumnPropNameInTable="PK3_NAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESRES" msprop:Generator_UserTableName="TESRES" msprop:Generator_RowDeletedName="TESRESRowDeleted" msprop:Generator_RowChangedName="TESRESRowChanged" msprop:Generator_RowClassName="TESRESRow" msprop:Generator_RowChangingName="TESRESRowChanging" msprop:Generator_RowEvArgName="TESRESRowChangeEvent" msprop:Generator_RowEvHandlerName="TESRESRowChangeEventHandler" msprop:Generator_TableClassName="TESRESDataTable" msprop:Generator_TableVarName="tableTESRES" msprop:Generator_RowDeletingName="TESRESRowDeleting" msprop:Generator_TablePropName="TESRES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RESTYPE" msprop:Generator_UserColumnName="RESTYPE" msprop:Generator_ColumnPropNameInRow="RESTYPE" msprop:Generator_ColumnVarNameInTable="columnRESTYPE" msprop:Generator_ColumnPropNameInTable="RESTYPEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="APPNAME" msprop:Generator_UserColumnName="APPNAME" msprop:Generator_ColumnPropNameInRow="APPNAME" msprop:Generator_ColumnVarNameInTable="columnAPPNAME" msprop:Generator_ColumnPropNameInTable="APPNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ADMIN1" msprop:Generator_UserColumnName="ADMIN1" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnADMIN1" msprop:Generator_ColumnPropNameInTable="ADMIN1Column" msprop:Generator_ColumnPropNameInRow="ADMIN1" type="xs:string" minOccurs="0" />
+              <xs:element name="ADMIN2" msprop:Generator_UserColumnName="ADMIN2" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnADMIN2" msprop:Generator_ColumnPropNameInTable="ADMIN2Column" msprop:Generator_ColumnPropNameInRow="ADMIN2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESRESGROUP" msprop:Generator_UserTableName="TESRESGROUP" msprop:Generator_RowDeletedName="TESRESGROUPRowDeleted" msprop:Generator_RowChangedName="TESRESGROUPRowChanged" msprop:Generator_RowClassName="TESRESGROUPRow" msprop:Generator_RowChangingName="TESRESGROUPRowChanging" msprop:Generator_RowEvArgName="TESRESGROUPRowChangeEvent" msprop:Generator_RowEvHandlerName="TESRESGROUPRowChangeEventHandler" msprop:Generator_TableClassName="TESRESGROUPDataTable" msprop:Generator_TableVarName="tableTESRESGROUP" msprop:Generator_RowDeletingName="TESRESGROUPRowDeleting" msprop:Generator_TablePropName="TESRESGROUP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESTREEINFO" msprop:Generator_UserTableName="TESTREEINFO" msprop:Generator_RowDeletedName="TESTREEINFORowDeleted" msprop:Generator_RowChangedName="TESTREEINFORowChanged" msprop:Generator_RowClassName="TESTREEINFORow" msprop:Generator_RowChangingName="TESTREEINFORowChanging" msprop:Generator_RowEvArgName="TESTREEINFORowChangeEvent" msprop:Generator_RowEvHandlerName="TESTREEINFORowChangeEventHandler" msprop:Generator_TableClassName="TESTREEINFODataTable" msprop:Generator_TableVarName="tableTESTREEINFO" msprop:Generator_RowDeletingName="TESTREEINFORowDeleting" msprop:Generator_TablePropName="TESTREEINFO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FNAME" msprop:Generator_UserColumnName="FNAME" msprop:Generator_ColumnVarNameInTable="columnFNAME" msprop:Generator_ColumnPropNameInRow="FNAME" msprop:Generator_ColumnPropNameInTable="FNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SHORTCUT" msprop:Generator_UserColumnName="SHORTCUT" msprop:Generator_ColumnVarNameInTable="columnSHORTCUT" msprop:Generator_ColumnPropNameInRow="SHORTCUT" msprop:Generator_ColumnPropNameInTable="SHORTCUTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ACLID" msprop:Generator_UserColumnName="ACLID" msprop:Generator_ColumnVarNameInTable="columnACLID" msprop:Generator_ColumnPropNameInRow="ACLID" msprop:Generator_ColumnPropNameInTable="ACLIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="RESNAME" msprop:Generator_UserColumnName="RESNAME" msprop:Generator_ColumnVarNameInTable="columnRESNAME" msprop:Generator_ColumnPropNameInRow="RESNAME" msprop:Generator_ColumnPropNameInTable="RESNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TREENO" msprop:Generator_UserColumnName="TREENO" msprop:Generator_ColumnVarNameInTable="columnTREENO" msprop:Generator_ColumnPropNameInRow="TREENO" msprop:Generator_ColumnPropNameInTable="TREENOColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="TREESEQ" msprop:Generator_UserColumnName="TREESEQ" msprop:Generator_ColumnVarNameInTable="columnTREESEQ" msprop:Generator_ColumnPropNameInRow="TREESEQ" msprop:Generator_ColumnPropNameInTable="TREESEQColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="APPNAME" msprop:Generator_UserColumnName="APPNAME" msprop:Generator_ColumnVarNameInTable="columnAPPNAME" msprop:Generator_ColumnPropNameInRow="APPNAME" msprop:Generator_ColumnPropNameInTable="APPNAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESFORMRESINFO_RES" msprop:Generator_UserTableName="TESFORMRESINFO_RES" msprop:Generator_RowDeletedName="TESFORMRESINFO_RESRowDeleted" msprop:Generator_RowChangedName="TESFORMRESINFO_RESRowChanged" msprop:Generator_RowClassName="TESFORMRESINFO_RESRow" msprop:Generator_RowChangingName="TESFORMRESINFO_RESRowChanging" msprop:Generator_RowEvArgName="TESFORMRESINFO_RESRowChangeEvent" msprop:Generator_RowEvHandlerName="TESFORMRESINFO_RESRowChangeEventHandler" msprop:Generator_TableClassName="TESFORMRESINFO_RESDataTable" msprop:Generator_TableVarName="tableTESFORMRESINFO_RES" msprop:Generator_RowDeletingName="TESFORMRESINFO_RESRowDeleting" msprop:Generator_TablePropName="TESFORMRESINFO_RES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CULTURE" msprop:Generator_UserColumnName="CULTURE" msprop:Generator_ColumnVarNameInTable="columnCULTURE" msprop:Generator_ColumnPropNameInRow="CULTURE" msprop:Generator_ColumnPropNameInTable="CULTUREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ACLID" msprop:Generator_UserColumnName="ACLID" msprop:Generator_ColumnVarNameInTable="columnACLID" msprop:Generator_ColumnPropNameInRow="ACLID" msprop:Generator_ColumnPropNameInTable="ACLIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESBUTTONRESINFO_RES" msprop:Generator_UserTableName="TESBUTTONRESINFO_RES" msprop:Generator_RowDeletedName="TESBUTTONRESINFO_RESRowDeleted" msprop:Generator_RowChangedName="TESBUTTONRESINFO_RESRowChanged" msprop:Generator_RowClassName="TESBUTTONRESINFO_RESRow" msprop:Generator_RowChangingName="TESBUTTONRESINFO_RESRowChanging" msprop:Generator_RowEvArgName="TESBUTTONRESINFO_RESRowChangeEvent" msprop:Generator_RowEvHandlerName="TESBUTTONRESINFO_RESRowChangeEventHandler" msprop:Generator_TableClassName="TESBUTTONRESINFO_RESDataTable" msprop:Generator_TableVarName="tableTESBUTTONRESINFO_RES" msprop:Generator_RowDeletingName="TESBUTTONRESINFO_RESRowDeleting" msprop:Generator_TablePropName="TESBUTTONRESINFO_RES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CULTURE" msprop:Generator_UserColumnName="CULTURE" msprop:Generator_ColumnVarNameInTable="columnCULTURE" msprop:Generator_ColumnPropNameInRow="CULTURE" msprop:Generator_ColumnPropNameInTable="CULTUREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ACLID" msprop:Generator_UserColumnName="ACLID" msprop:Generator_ColumnVarNameInTable="columnACLID" msprop:Generator_ColumnPropNameInRow="ACLID" msprop:Generator_ColumnPropNameInTable="ACLIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESOTHERRESINFO_RES" msprop:Generator_UserTableName="TESOTHERRESINFO_RES" msprop:Generator_RowDeletedName="TESOTHERRESINFO_RESRowDeleted" msprop:Generator_RowChangedName="TESOTHERRESINFO_RESRowChanged" msprop:Generator_RowClassName="TESOTHERRESINFO_RESRow" msprop:Generator_RowChangingName="TESOTHERRESINFO_RESRowChanging" msprop:Generator_RowEvArgName="TESOTHERRESINFO_RESRowChangeEvent" msprop:Generator_RowEvHandlerName="TESOTHERRESINFO_RESRowChangeEventHandler" msprop:Generator_TableClassName="TESOTHERRESINFO_RESDataTable" msprop:Generator_TableVarName="tableTESOTHERRESINFO_RES" msprop:Generator_RowDeletingName="TESOTHERRESINFO_RESRowDeleting" msprop:Generator_TablePropName="TESOTHERRESINFO_RES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CULTURE" msprop:Generator_UserColumnName="CULTURE" msprop:Generator_ColumnVarNameInTable="columnCULTURE" msprop:Generator_ColumnPropNameInRow="CULTURE" msprop:Generator_ColumnPropNameInTable="CULTUREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ACLID" msprop:Generator_UserColumnName="ACLID" msprop:Generator_ColumnVarNameInTable="columnACLID" msprop:Generator_ColumnPropNameInRow="ACLID" msprop:Generator_ColumnPropNameInTable="ACLIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESTREEINFO_RES" msprop:Generator_UserTableName="TESTREEINFO_RES" msprop:Generator_RowDeletedName="TESTREEINFO_RESRowDeleted" msprop:Generator_TableClassName="TESTREEINFO_RESDataTable" msprop:Generator_RowChangedName="TESTREEINFO_RESRowChanged" msprop:Generator_RowClassName="TESTREEINFO_RESRow" msprop:Generator_RowChangingName="TESTREEINFO_RESRowChanging" msprop:Generator_RowEvArgName="TESTREEINFO_RESRowChangeEvent" msprop:Generator_RowEvHandlerName="TESTREEINFO_RESRowChangeEventHandler" msprop:Generator_TablePropName="TESTREEINFO_RES" msprop:Generator_TableVarName="tableTESTREEINFO_RES" msprop:Generator_RowDeletingName="TESTREEINFO_RESRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CULTURE" msprop:Generator_UserColumnName="CULTURE" msprop:Generator_ColumnPropNameInRow="CULTURE" msprop:Generator_ColumnVarNameInTable="columnCULTURE" msprop:Generator_ColumnPropNameInTable="CULTUREColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ACLID" msprop:Generator_UserColumnName="ACLID" msprop:Generator_ColumnPropNameInRow="ACLID" msprop:Generator_ColumnVarNameInTable="columnACLID" msprop:Generator_ColumnPropNameInTable="ACLIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="DESCRIPTION" msprop:Generator_UserColumnName="DESCRIPTION" msprop:Generator_ColumnPropNameInRow="DESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnDESCRIPTION" msprop:Generator_ColumnPropNameInTable="DESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NAME" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

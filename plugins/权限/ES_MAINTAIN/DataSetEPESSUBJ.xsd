@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetEPESSUBJ" targetNamespace="http://tempuri.org/DataSetEPESSUBJ.xsd" xmlns:mstns="http://tempuri.org/DataSetEPESSUBJ.xsd" xmlns="http://tempuri.org/DataSetEPESSUBJ.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetEPESSUBJ" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSetEPESSUBJ" msprop:Generator_DataSetName="DataSetEPESSUBJ" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TESGROUPINFO" msprop:Generator_UserTableName="TESGROUPINFO" msprop:Generator_RowDeletedName="TESGROUPINFORowDeleted" msprop:Generator_RowChangedName="TESGROUPINFORowChanged" msprop:Generator_RowClassName="TESGROUPINFORow" msprop:Generator_RowChangingName="TESGROUPINFORowChanging" msprop:Generator_RowEvArgName="TESGROUPINFORowChangeEvent" msprop:Generator_RowEvHandlerName="TESGROUPINFORowChangeEventHandler" msprop:Generator_TableClassName="TESGROUPINFODataTable" msprop:Generator_TableVarName="tableTESGROUPINFO" msprop:Generator_RowDeletingName="TESGROUPINFORowDeleting" msprop:Generator_TablePropName="TESGROUPINFO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:Caption="用户序列号" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="ADMINUSERID" msdata:Caption="群组管理里员号" msprop:Generator_UserColumnName="ADMINUSERID" msprop:Generator_ColumnVarNameInTable="columnADMINUSERID" msprop:Generator_ColumnPropNameInRow="ADMINUSERID" msprop:Generator_ColumnPropNameInTable="ADMINUSERIDColumn" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="NAME" msdata:Caption="群组名" msprop:Generator_UserColumnName="NAME" msprop:Generator_ColumnVarNameInTable="columnNAME" msprop:Generator_ColumnPropNameInRow="NAME" msprop:Generator_ColumnPropNameInTable="NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="GROUPDESCRIPTION" msdata:Caption="群组描述" msprop:Generator_UserColumnName="GROUPDESCRIPTION" msprop:Generator_ColumnVarNameInTable="columnGROUPDESCRIPTION" msprop:Generator_ColumnPropNameInRow="GROUPDESCRIPTION" msprop:Generator_ColumnPropNameInTable="GROUPDESCRIPTIONColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="APPNAME" msdata:Caption="子系统" msprop:Generator_UserColumnName="APPNAME" msprop:Generator_ColumnVarNameInTable="columnAPPNAME" msprop:Generator_ColumnPropNameInRow="APPNAME" msprop:Generator_ColumnPropNameInTable="APPNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="18" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ADMINUSERID2" msdata:Caption="群组管理里员2" msprop:Generator_UserColumnName="ADMINUSERID2" msprop:Generator_ColumnVarNameInTable="columnADMINUSERID2" msprop:Generator_ColumnPropNameInRow="ADMINUSERID2" msprop:Generator_ColumnPropNameInTable="ADMINUSERID2Column" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="ADMINUSERNAME1" msdata:Caption="群组管理员1" msprop:Generator_UserColumnName="ADMINUSERNAME1" msprop:Generator_ColumnVarNameInTable="columnADMINUSERNAME1" msprop:Generator_ColumnPropNameInRow="ADMINUSERNAME1" msprop:Generator_ColumnPropNameInTable="ADMINUSERNAME1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ADMINUSERNAME2" msdata:Caption="群组管理员2" msprop:Generator_UserColumnName="ADMINUSERNAME2" msprop:Generator_ColumnVarNameInTable="columnADMINUSERNAME2" msprop:Generator_ColumnPropNameInRow="ADMINUSERNAME2" msprop:Generator_ColumnPropNameInTable="ADMINUSERNAME2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="selected" msdata:Caption="选择" msprop:Generator_UserColumnName="selected" msprop:Generator_ColumnPropNameInRow="selected" msprop:Generator_ColumnVarNameInTable="columnselected" msprop:Generator_ColumnPropNameInTable="selectedColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESDEPTINFO" msprop:Generator_UserTableName="TESDEPTINFO" msprop:Generator_RowDeletedName="TESDEPTINFORowDeleted" msprop:Generator_RowChangedName="TESDEPTINFORowChanged" msprop:Generator_RowClassName="TESDEPTINFORow" msprop:Generator_RowChangingName="TESDEPTINFORowChanging" msprop:Generator_RowEvArgName="TESDEPTINFORowChangeEvent" msprop:Generator_RowEvHandlerName="TESDEPTINFORowChangeEventHandler" msprop:Generator_TableClassName="TESDEPTINFODataTable" msprop:Generator_TableVarName="tableTESDEPTINFO" msprop:Generator_RowDeletingName="TESDEPTINFORowDeleting" msprop:Generator_TablePropName="TESDEPTINFO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:Caption="用户序列号" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="ENAME" msdata:Caption="英文名" msprop:Generator_UserColumnName="ENAME" msprop:Generator_ColumnVarNameInTable="columnENAME" msprop:Generator_ColumnPropNameInRow="ENAME" msprop:Generator_ColumnPropNameInTable="ENAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CNAME" msdata:Caption="中文名" msprop:Generator_UserColumnName="CNAME" msprop:Generator_ColumnVarNameInTable="columnCNAME" msprop:Generator_ColumnPropNameInRow="CNAME" msprop:Generator_ColumnPropNameInTable="CNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FDEPARTMENT" msdata:Caption="上层部门" msprop:Generator_UserColumnName="FDEPARTMENT" msprop:Generator_ColumnVarNameInTable="columnFDEPARTMENT" msprop:Generator_ColumnPropNameInRow="FDEPARTMENT" msprop:Generator_ColumnPropNameInTable="FDEPARTMENTColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPART_LEVEL" msdata:Caption="部门标识" msprop:Generator_UserColumnName="DEPART_LEVEL" msprop:Generator_ColumnVarNameInTable="columnDEPART_LEVEL" msprop:Generator_ColumnPropNameInRow="DEPART_LEVEL" msprop:Generator_ColumnPropNameInTable="DEPART_LEVELColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT_ADMIN1" msdata:Caption="部门管理员1" msprop:Generator_UserColumnName="DEPT_ADMIN1" msprop:Generator_ColumnVarNameInTable="columnDEPT_ADMIN1" msprop:Generator_ColumnPropNameInRow="DEPT_ADMIN1" msprop:Generator_ColumnPropNameInTable="DEPT_ADMIN1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT_ADMIN2" msdata:Caption="部门管理员2" msprop:Generator_UserColumnName="DEPT_ADMIN2" msprop:Generator_ColumnVarNameInTable="columnDEPT_ADMIN2" msprop:Generator_ColumnPropNameInRow="DEPT_ADMIN2" msprop:Generator_ColumnPropNameInTable="DEPT_ADMIN2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="selected" msdata:Caption="选择" msprop:Generator_UserColumnName="selected" msprop:Generator_ColumnPropNameInRow="selected" msprop:Generator_ColumnVarNameInTable="columnselected" msprop:Generator_ColumnPropNameInTable="selectedColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TESUSERINFO" msprop:Generator_UserTableName="TESUSERINFO" msprop:Generator_RowDeletedName="TESUSERINFORowDeleted" msprop:Generator_RowChangedName="TESUSERINFORowChanged" msprop:Generator_RowClassName="TESUSERINFORow" msprop:Generator_RowChangingName="TESUSERINFORowChanging" msprop:Generator_RowEvArgName="TESUSERINFORowChangeEvent" msprop:Generator_RowEvHandlerName="TESUSERINFORowChangeEventHandler" msprop:Generator_TableClassName="TESUSERINFODataTable" msprop:Generator_TableVarName="tableTESUSERINFO" msprop:Generator_RowDeletingName="TESUSERINFORowDeleting" msprop:Generator_TablePropName="TESUSERINFO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:Caption="用户序列号" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="ENAME" msdata:Caption="工号" msprop:Generator_UserColumnName="ENAME" msprop:Generator_ColumnVarNameInTable="columnENAME" msprop:Generator_ColumnPropNameInRow="ENAME" msprop:Generator_ColumnPropNameInTable="ENAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CNAME" msdata:Caption="中文名" msprop:Generator_UserColumnName="CNAME" msprop:Generator_ColumnVarNameInTable="columnCNAME" msprop:Generator_ColumnPropNameInRow="CNAME" msprop:Generator_ColumnPropNameInTable="CNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ISENABLE" msdata:Caption="是否有效" msprop:Generator_UserColumnName="ISENABLE" msprop:Generator_ColumnVarNameInTable="columnISENABLE" msprop:Generator_ColumnPropNameInRow="ISENABLE" msprop:Generator_ColumnPropNameInTable="ISENABLEColumn" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="DEPTID" msdata:Caption="部门标识" msprop:Generator_UserColumnName="DEPTID" msprop:Generator_ColumnVarNameInTable="columnDEPTID" msprop:Generator_ColumnPropNameInRow="DEPTID" msprop:Generator_ColumnPropNameInTable="DEPTIDColumn" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="PASSWD_PERIOD" msdata:Caption="密码有效天数" msprop:Generator_UserColumnName="PASSWD_PERIOD" msprop:Generator_ColumnVarNameInTable="columnPASSWD_PERIOD" msprop:Generator_ColumnPropNameInRow="PASSWD_PERIOD" msprop:Generator_ColumnPropNameInTable="PASSWD_PERIODColumn" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="TIMETIRED" msdata:Caption="密码有效时间" msprop:Generator_UserColumnName="TIMETIRED" msprop:Generator_ColumnPropNameInRow="TIMETIRED" msprop:Generator_ColumnVarNameInTable="columnTIMETIRED" msprop:Generator_ColumnPropNameInTable="TIMETIREDColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DEPT_ENAME" msdata:Caption="部门号" msprop:Generator_UserColumnName="DEPT_ENAME" msprop:Generator_ColumnVarNameInTable="columnDEPT_ENAME" msprop:Generator_ColumnPropNameInRow="DEPT_ENAME" msprop:Generator_ColumnPropNameInTable="DEPT_ENAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DEPT_CNAME" msdata:Caption="部门描述" msprop:Generator_UserColumnName="DEPT_CNAME" msprop:Generator_ColumnVarNameInTable="columnDEPT_CNAME" msprop:Generator_ColumnPropNameInRow="DEPT_CNAME" msprop:Generator_ColumnPropNameInTable="DEPT_CNAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="selected" msdata:Caption="选择" msprop:Generator_UserColumnName="selected" msprop:Generator_ColumnPropNameInRow="selected" msprop:Generator_ColumnVarNameInTable="columnselected" msprop:Generator_ColumnPropNameInTable="selectedColumn" type="xs:boolean" default="false" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

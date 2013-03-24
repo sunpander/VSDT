@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EPESC0000175" xml:space="preserve">
+    <value> 永久鎖定錯誤次數</value>
+  </data>
+  <data name="EPESC0000046" xml:space="preserve">
+    <value>{0}載入失敗</value>
+  </data>
+  <data name="EPESC0000114" xml:space="preserve">
+    <value>&amp;quot;未選中行!</value>
+  </data>
+  <data name="EPESC0000116" xml:space="preserve">
+    <value>&amp;quot;系統參數修改成功</value>
+  </data>
+  <data name="EPESC0000086" xml:space="preserve">
+    <value>ALL: 無限制</value>
+  </data>
+  <data name="EPESC0000107" xml:space="preserve">
+    <value>ALL:所有部門</value>
+  </data>
+  <data name="EPESC0000065" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+  <data name="EPESC0000074" xml:space="preserve">
+    <value>刪除成功</value>
+  </data>
+  <data name="EPESC0000023" xml:space="preserve">
+    <value>刪除此用戶的登錄信息？</value>
+  </data>
+  <data name="EPESC0000075" xml:space="preserve">
+    <value>刪除失敗</value>
+  </data>
+  <data name="EPESC0000055" xml:space="preserve">
+    <value>刪除失敗：{0}</value>
+  </data>
+  <data name="EPESC0000040" xml:space="preserve">
+    <value>動態庫必須由數字、字母或下劃線加&amp;#39;.DLL&amp;#39;組成，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000161" xml:space="preserve">
+    <value>動態庫不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000058" xml:space="preserve">
+    <value>單步操　　作</value>
+  </data>
+  <data name="EPESC0000042" xml:space="preserve">
+    <value>圖標編號最多允許輸入3位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000077" xml:space="preserve">
+    <value>執行成功</value>
+  </data>
+  <data name="EPESC0000085" xml:space="preserve">
+    <value>數據庫操作錯誤SQLCODE : {0} msg: {1}</value>
+  </data>
+  <data name="EPESC0000172" xml:space="preserve">
+    <value>暫時鎖定監控時間</value>
+  </data>
+  <data name="EPESC0000176" xml:space="preserve">
+    <value>暫時鎖定持續時間</value>
+  </data>
+  <data name="EPESC0000173" xml:space="preserve">
+    <value>暫時鎖定錯誤次數</value>
+  </data>
+  <data name="EPESC0000122" xml:space="preserve">
+    <value>無法選擇“多步操作”</value>
+  </data>
+  <data name="EPESC0000061" xml:space="preserve">
+    <value>獲取APPNAME信息錯誤：{0}</value>
+  </data>
+  <data name="EPESC0000045" xml:space="preserve">
+    <value>獲取畫面{0}的dllname失敗</value>
+  </data>
+  <data name="EPESC0000106" xml:space="preserve">
+    <value>獲取用戶管轄部門信息錯誤：{0}</value>
+  </data>
+  <data name="EPESC0000100" xml:space="preserve">
+    <value>獲取資源代碼信息錯誤！</value>
+  </data>
+  <data name="EPESC0000146" xml:space="preserve">
+    <value>獲取資源類型失敗！</value>
+  </data>
+  <data name="EPESC0000195" xml:space="preserve">
+    <value>畫面代碼</value>
+  </data>
+  <data name="EPESC0000035" xml:space="preserve">
+    <value>畫面描述不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000039" xml:space="preserve">
+    <value>畫面描述最多允許輸入80位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000121" xml:space="preserve">
+    <value>畫面名必須是大寫字母與數字的組合，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000033" xml:space="preserve">
+    <value>畫面名不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000049" xml:space="preserve">
+    <value>畫面名不能超過125位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000194" xml:space="preserve">
+    <value>畫面名稱</value>
+  </data>
+  <data name="EPESC0000163" xml:space="preserve">
+    <value>畫面名稱不能為空！請重新輸入</value>
+  </data>
+  <data name="EPESC0000167" xml:space="preserve">
+    <value>畫面名稱不能超過80位！請重新輸入</value>
+  </data>
+  <data name="EPESC0000037" xml:space="preserve">
+    <value>畫面名最多允許輸入128位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000048" xml:space="preserve">
+    <value>按鈕描述不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000047" xml:space="preserve">
+    <value>按鈕描述不能超過75位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000191" xml:space="preserve">
+    <value>按鈕名</value>
+  </data>
+  <data name="EPESC0000053" xml:space="preserve">
+    <value>按鈕名為F1-F12時操作類型才能選擇“多步操作”！</value>
+  </data>
+  <data name="EPESC0000052" xml:space="preserve">
+    <value>按鈕名不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000050" xml:space="preserve">
+    <value>按鈕名不能超過125位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000124" xml:space="preserve">
+    <value>按鈕提示</value>
+  </data>
+  <data name="EPESC0000123" xml:space="preserve">
+    <value>按鈕展示</value>
+  </data>
+  <data name="EPESC0000189" xml:space="preserve">
+    <value>按鈕資訊</value>
+  </data>
+  <data name="EPESC0000079" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="EPESC0000073" xml:space="preserve">
+    <value>本節點下所有子節點都會被刪除，且無法恢復！確定刪除節點[{0}] ？</value>
+  </data>
+  <data name="EPESC0000178" xml:space="preserve">
+    <value>不能將畫面直接掛于根目錄下，請先建立子目錄</value>
+  </data>
+  <data name="EPESC0000092" xml:space="preserve">
+    <value>不能對用戶授權，請操作用戶所屬或所管理群組！</value>
+  </data>
+  <data name="EPESC0000135" xml:space="preserve">
+    <value>部門標識不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000142" xml:space="preserve">
+    <value>部門標識不能超過2位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000143" xml:space="preserve">
+    <value>部門管理員不能超過18位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000137" xml:space="preserve">
+    <value>部門號不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000138" xml:space="preserve">
+    <value>部門號不能超過18位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000140" xml:space="preserve">
+    <value>部門中文名不能超過50位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000139" xml:space="preserve">
+    <value>部門中文名稱不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000156" xml:space="preserve">
+    <value>操作成功！</value>
+  </data>
+  <data name="EPESC0000030" xml:space="preserve">
+    <value>操作模式</value>
+  </data>
+  <data name="EPESC0000071" xml:space="preserve">
+    <value>操作失敗！請進入維護模式進行排序操作！</value>
+  </data>
+  <data name="EPESC0000169" xml:space="preserve">
+    <value>操作失敗！請進入資源組維護模式操作！</value>
+  </data>
+  <data name="EPESC0000153" xml:space="preserve">
+    <value>操作失敗，請檢查後重試！</value>
+  </data>
+  <data name="EPESC0000157" xml:space="preserve">
+    <value>操作失敗：{0}，請檢查後重試！</value>
+  </data>
+  <data name="EPESC0000144" xml:space="preserve">
+    <value>操作類型不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000088" xml:space="preserve">
+    <value>查詢</value>
+  </data>
+  <data name="EPESC0000099" xml:space="preserve">
+    <value>查詢畫面數量超出範圍，請輸入查詢條件限制查詢結果！</value>
+  </data>
+  <data name="EPESC0000151" xml:space="preserve">
+    <value>查詢賬套信息失敗</value>
+  </data>
+  <data name="EPESC0000056" xml:space="preserve">
+    <value>成功執行</value>
+  </data>
+  <data name="EPESC0000118" xml:space="preserve">
+    <value>成功執行sqlcode is {0}</value>
+  </data>
+  <data name="EPESC0000120" xml:space="preserve">
+    <value>初始化密碼</value>
+  </data>
+  <data name="EPESC0000115" xml:space="preserve">
+    <value>初始化密碼成功</value>
+  </data>
+  <data name="EPESC0000066" xml:space="preserve">
+    <value>存盤</value>
+  </data>
+  <data name="EPESC0000014" xml:space="preserve">
+    <value>登錄的用戶,強制修改密碼。</value>
+  </data>
+  <data name="EPESC0000110" xml:space="preserve">
+    <value>登錄的用戶無權限查看該群組下的成員！</value>
+  </data>
+  <data name="EPESC0000020" xml:space="preserve">
+    <value>登錄失敗， 數據庫操作失敗。</value>
+  </data>
+  <data name="EPESC0000015" xml:space="preserve">
+    <value>登錄失敗， 密碼不正確。</value>
+  </data>
+  <data name="EPESC0000021" xml:space="preserve">
+    <value>登錄失敗， 系統內存錯誤。</value>
+  </data>
+  <data name="EPESC0000017" xml:space="preserve">
+    <value>登錄失敗， 用戶暫時鎖定。請稍後登錄。</value>
+  </data>
+  <data name="EPESC0000019" xml:space="preserve">
+    <value>登錄失敗， 用戶無效。</value>
+  </data>
+  <data name="EPESC0000016" xml:space="preserve">
+    <value>登錄失敗， 用戶不存在。</value>
+  </data>
+  <data name="EPESC0000018" xml:space="preserve">
+    <value>登錄失敗，用戶永久鎖定。請聯繫管理人員。</value>
+  </data>
+  <data name="EPESC0000011" xml:space="preserve">
+    <value>登錄失敗，請檢查後重試。</value>
+  </data>
+  <data name="EPESC0000112" xml:space="preserve">
+    <value>第{0}頁/共{1}頁</value>
+  </data>
+  <data name="EPESC0000032" xml:space="preserve">
+    <value>多步操作</value>
+  </data>
+  <data name="EPESC0000080" xml:space="preserve">
+    <value>放棄</value>
+  </data>
+  <data name="EPESC0000091" xml:space="preserve">
+    <value>非維護模式下無法修改權限！</value>
+  </data>
+  <data name="EPESC0000081" xml:space="preserve">
+    <value>節點名不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000082" xml:space="preserve">
+    <value>節點名不能超過128位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000129" xml:space="preserve">
+    <value>工號不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000131" xml:space="preserve">
+    <value>工號不能多於[{0}]位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000130" xml:space="preserve">
+    <value>工號不能少於3位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000199" xml:space="preserve">
+    <value>功能按鈕</value>
+  </data>
+  <data name="EPESC0000182" xml:space="preserve">
+    <value>勾選后將查詢未掛到菜單樹上的畫面。支持畫面名模糊匹配查詢。</value>
+  </data>
+  <data name="EPESC0000181" xml:space="preserve">
+    <value>勾選后將查詢未分配到資源組的畫面/按鈕。支持畫面名模糊匹配查詢。</value>
+  </data>
+  <data name="EPESC0000183" xml:space="preserve">
+    <value>勾選后將查詢未分配到資源組的細部資源。支持資源名模糊匹配查詢。</value>
+  </data>
+  <data name="EPESC0000197" xml:space="preserve">
+    <value>管理員1</value>
+  </data>
+  <data name="EPESC0000198" xml:space="preserve">
+    <value>管理員2</value>
+  </data>
+  <data name="EPESC0000164" xml:space="preserve">
+    <value>基準畫面名稱不能為空！請重新輸入</value>
+  </data>
+  <data name="EPESC0000165" xml:space="preserve">
+    <value>基準畫面名稱不能超過80位！請重新輸入</value>
+  </data>
+  <data name="EPESC0000008" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="EPESC0000041" xml:space="preserve">
+    <value>縮寫最多允許輸入10位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000190" xml:space="preserve">
+    <value>控制項名</value>
+  </data>
+  <data name="EPESC0000188" xml:space="preserve">
+    <value>控制項資訊</value>
+  </data>
+  <data name="EPESC0000147" xml:space="preserve">
+    <value>名稱不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000148" xml:space="preserve">
+    <value>名稱不能超過128位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000090" xml:space="preserve">
+    <value>您沒有群組的查詢權限！</value>
+  </data>
+  <data name="EPESC0000087" xml:space="preserve">
+    <value>您沒有該群組的查詢權限！</value>
+  </data>
+  <data name="EPESC0000095" xml:space="preserve">
+    <value>您不是該群組管理員，無權更改其權限！</value>
+  </data>
+  <data name="EPESC0000025" xml:space="preserve">
+    <value>舊密碼輸入錯誤,請重新輸入。</value>
+  </data>
+  <data name="EPESC0000093" xml:space="preserve">
+    <value>嵌套查詢模式下不能修改權限！</value>
+  </data>
+  <data name="EPESC0000076" xml:space="preserve">
+    <value>取消刪除</value>
+  </data>
+  <data name="EPESC0000117" xml:space="preserve">
+    <value>取消系統參數修改</value>
+  </data>
+  <data name="EPESC0000070" xml:space="preserve">
+    <value>取消新增</value>
+  </data>
+  <data name="EPESC0000128" xml:space="preserve">
+    <value>群組管理員不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000127" xml:space="preserve">
+    <value>群組描述最多允許輸入100位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000125" xml:space="preserve">
+    <value>群組名不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000171" xml:space="preserve">
+    <value>群組名不能超過127位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000141" xml:space="preserve">
+    <value>上層部門不能超過50位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000201" xml:space="preserve">
+    <value>上層部門號不能與部門號相同！若無上層部門，上層部門號可不填寫</value>
+  </data>
+  <data name="EPESC0000152" xml:space="preserve">
+    <value>是否刪除賬套[{0}]？</value>
+  </data>
+  <data name="EPESC0000168" xml:space="preserve">
+    <value>是否刪除資源組:{0}</value>
+  </data>
+  <data name="EPESC0000154" xml:space="preserve">
+    <value>是否取消關聯賬套[{0}]下的群組[{1}]？</value>
+  </data>
+  <data name="EPESC0000160" xml:space="preserve">
+    <value>是否退出維護模式？</value>
+  </data>
+  <data name="EPESC0000134" xml:space="preserve">
+    <value>是否有效不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000192" xml:space="preserve">
+    <value>所屬畫面不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000024" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="EPESC0000105" xml:space="preserve">
+    <value>系統默認組</value>
+  </data>
+  <data name="EPESC0000193" xml:space="preserve">
+    <value>系統群組下不可掛子組，請將角色使用者直接添加到該組下！</value>
+  </data>
+  <data name="EPESC0000028" xml:space="preserve">
+    <value>新密碼不匹配,請重新輸入。</value>
+  </data>
+  <data name="EPESC0000026" xml:space="preserve">
+    <value>新密碼和舊密碼一樣,請重新輸入。</value>
+  </data>
+  <data name="EPESC0000027" xml:space="preserve">
+    <value>新密碼和用戶名一樣,請重新輸入。</value>
+  </data>
+  <data name="EPESC0000063" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="EPESC0000069" xml:space="preserve">
+    <value>新增成功</value>
+  </data>
+  <data name="EPESC0000068" xml:space="preserve">
+    <value>新增目錄</value>
+  </data>
+  <data name="EPESC0000072" xml:space="preserve">
+    <value>新增失敗</value>
+  </data>
+  <data name="EPESC0000029" xml:space="preserve">
+    <value>修改密碼失敗。請重試。</value>
+  </data>
+  <data name="EPESC0000177" xml:space="preserve">
+    <value>修改目錄</value>
+  </data>
+  <data name="EPESC0000064" xml:space="preserve">
+    <value>複製新增</value>
+  </data>
+  <data name="EPESC0000089" xml:space="preserve">
+    <value>已修改群組資源權限，是否保存？</value>
+  </data>
+  <data name="EPESC0000103" xml:space="preserve">
+    <value>已修改資源群組權限，是否保存？</value>
+  </data>
+  <data name="EPESC0000174" xml:space="preserve">
+    <value>永久鎖定監控時間</value>
+  </data>
+  <data name="EPESC0000104" xml:space="preserve">
+    <value>用戶{0}具有{1}的權限，該權限來源於以下群組：</value>
+  </data>
+  <data name="EPESC0000006" xml:space="preserve">
+    <value>用戶密碼不能為連續字符，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000001" xml:space="preserve">
+    <value>用戶密碼不能小於6位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000005" xml:space="preserve">
+    <value>用戶密碼不能重複字符，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000002" xml:space="preserve">
+    <value>用戶密碼太長，不能超過20位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000003" xml:space="preserve">
+    <value>用戶密碼中不能有空格，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000004" xml:space="preserve">
+    <value>用戶密碼中不能有特殊字符，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000022" xml:space="preserve">
+    <value>用戶密碼過期,強制修改密碼。</value>
+  </data>
+  <data name="EPESC0000010" xml:space="preserve">
+    <value>用戶名[{0}]存在空格，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000007" xml:space="preserve">
+    <value>用戶名和密碼不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000013" xml:space="preserve">
+    <value>用戶名和密碼相同，不允許登陸系統。</value>
+  </data>
+  <data name="EPESC0000136" xml:space="preserve">
+    <value>有效天數不能為空　　，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000187" xml:space="preserve">
+    <value>有效天數不能超過180天</value>
+  </data>
+  <data name="EPESC0000113" xml:space="preserve">
+    <value>該頁有尚未保存的數據，確認翻頁？</value>
+  </data>
+  <data name="EPESC0000185" xml:space="preserve">
+    <value>在賬套{0}下，資源{1}未分配到任何資源組</value>
+  </data>
+  <data name="EPESC0000186" xml:space="preserve">
+    <value>在賬套{0}下，資源{1}已經分配到資源組: {2}</value>
+  </data>
+  <data name="EPESC0000043" xml:space="preserve">
+    <value>調用方式最多允許輸入1位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000044" xml:space="preserve">
+    <value>調用路徑最多允許輸入500位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000184" xml:space="preserve">
+    <value>調用失敗，錯誤消息[{0}]</value>
+  </data>
+  <data name="EPESC0000102" xml:space="preserve">
+    <value>請給資源分配相應的權限！</value>
+  </data>
+  <data name="EPESC0000094" xml:space="preserve">
+    <value>請先勾選按鈕對應的畫面！</value>
+  </data>
+  <data name="EPESC0000038" xml:space="preserve">
+    <value>請輸入2位以上的畫面名！</value>
+  </data>
+  <data name="EPESC0000109" xml:space="preserve">
+    <value>請輸入兩位查詢字符</value>
+  </data>
+  <data name="EPESC0000051" xml:space="preserve">
+    <value>請輸入大於兩位的按鈕名！</value>
+  </data>
+  <data name="EPESC0000098" xml:space="preserve">
+    <value>請輸入至少兩位畫面名！</value>
+  </data>
+  <data name="EPESC0000155" xml:space="preserve">
+    <value>請進入維護模式操作！</value>
+  </data>
+  <data name="EPESC0000108" xml:space="preserve">
+    <value>請選擇子系統！</value>
+  </data>
+  <data name="EPESC0000111" xml:space="preserve">
+    <value>只能選擇同級節點！</value>
+  </data>
+  <data name="EPESC0000132" xml:space="preserve">
+    <value>中文姓名不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000133" xml:space="preserve">
+    <value>中文姓名不能多於20位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000067" xml:space="preserve">
+    <value>主菜單</value>
+  </data>
+  <data name="EPESC0000012" xml:space="preserve">
+    <value>注意: 密碼無效,密碼和登錄的用戶名相同,請修改密碼。</value>
+  </data>
+  <data name="EPESC0000054" xml:space="preserve">
+    <value>子節點數不能超過999！</value>
+  </data>
+  <data name="EPESC0000170" xml:space="preserve">
+    <value>子組權限僅供查詢，不能修改！</value>
+  </data>
+  <data name="EPESC0000096" xml:space="preserve">
+    <value>子組的按鈕權限僅供查詢，不能修改！</value>
+  </data>
+  <data name="EPESC0000162" xml:space="preserve">
+    <value>子系統參數不正確！</value>
+  </data>
+  <data name="EPESC0000036" xml:space="preserve">
+    <value>子系統不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000158" xml:space="preserve">
+    <value>賬套描述不能為空，請重新輸入</value>
+  </data>
+  <data name="EPESC0000159" xml:space="preserve">
+    <value>賬套名不能為空，請重新輸入</value>
+  </data>
+  <data name="EPESC0000200" xml:space="preserve">
+    <value>資源組代碼</value>
+  </data>
+  <data name="EPESC0000180" xml:space="preserve">
+    <value>資源組描述信息不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000196" xml:space="preserve">
+    <value>資源組名</value>
+  </data>
+  <data name="EPESC0000179" xml:space="preserve">
+    <value>資源組名不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000083" xml:space="preserve">
+    <value>資源描述不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000084" xml:space="preserve">
+    <value>資源描述不能超過80位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000150" xml:space="preserve">
+    <value>資源描述不能超過80位，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000149" xml:space="preserve">
+    <value>資源類型不能為空，請重新輸入！</value>
+  </data>
+  <data name="EPESC0000062" xml:space="preserve">
+    <value>載入失敗</value>
+  </data>
+  <data name="EPESC0000034" xml:space="preserve">
+    <value>輸入信息不合法</value>
+  </data>
+  <data name="EPESC0000097" xml:space="preserve">
+    <value>選擇群組查詢其有權限的資源</value>
+  </data>
+  <data name="EPESC0000101" xml:space="preserve">
+    <value>選擇群組或用戶查詢其有權限的資源</value>
+  </data>
+  <data name="EPESC0000119" xml:space="preserve">
+    <value>後台程序調用失敗! {0}</value>
+  </data>
+  <data name="EPESC0000057" xml:space="preserve">
+    <value>後台程序調用失敗! {0} sqlcode is {1}{2}</value>
+  </data>
+  <data name="EPESC0000009" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="EPESC0000166" xml:space="preserve">
+    <value>關鍵碼、關鍵碼名稱不能超過30位！請重新輸入</value>
+  </data>
+</root>

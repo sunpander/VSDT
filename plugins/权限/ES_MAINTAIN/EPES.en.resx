@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EPESC0000046" xml:space="preserve">
+    <value>{0} failed to load</value>
+  </data>
+  <data name="EPESC0000045" xml:space="preserve">
+    <value>{0} to get the screen dllname failure</value>
+  </data>
+  <data name="EPESC0000114" xml:space="preserve">
+    <value>&amp;quot;No row selected!</value>
+  </data>
+  <data name="EPESC0000116" xml:space="preserve">
+    <value>&amp;quot;The success of the system parameters change</value>
+  </data>
+  <data name="EPESC0000041" xml:space="preserve">
+    <value>Abbreviation allows up to 10-bit, please re-enter!</value>
+  </data>
+  <data name="EPESC0000146" xml:space="preserve">
+    <value>Access to resource type fails!</value>
+  </data>
+  <data name="EPESC0000100" xml:space="preserve">
+    <value>Access to source code information error!</value>
+  </data>
+  <data name="EPESC0000072" xml:space="preserve">
+    <value>Add failed</value>
+  </data>
+  <data name="EPESC0000197" xml:space="preserve">
+    <value>Administrator 1</value>
+  </data>
+  <data name="EPESC0000198" xml:space="preserve">
+    <value>Administrator 2</value>
+  </data>
+  <data name="EPESC0000143" xml:space="preserve">
+    <value>Administrators can not be more than 18 departments, please re-enter!</value>
+  </data>
+  <data name="EPESC0000073" xml:space="preserve">
+    <value>All child nodes under this node will be deleted, and can not be restored! OK to delete the node [{0}]?</value>
+  </data>
+  <data name="EPESC0000107" xml:space="preserve">
+    <value>ALL: all sectors</value>
+  </data>
+  <data name="EPESC0000086" xml:space="preserve">
+    <value>ALL: unlimited</value>
+  </data>
+  <data name="EPESC0000168" xml:space="preserve">
+    <value>Are you sure to delete resource group:{0}</value>
+  </data>
+  <data name="EPESC0000159" xml:space="preserve">
+    <value>Books Name can not be empty, please re-enter</value>
+  </data>
+  <data name="EPESC0000047" xml:space="preserve">
+    <value>Button can not be described in more than 75, please re-enter!</value>
+  </data>
+  <data name="EPESC0000048" xml:space="preserve">
+    <value>Button descriptions can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000189" xml:space="preserve">
+    <value>Button information</value>
+  </data>
+  <data name="EPESC0000191" xml:space="preserve">
+    <value>Button name</value>
+  </data>
+  <data name="EPESC0000052" xml:space="preserve">
+    <value>Button name can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000050" xml:space="preserve">
+    <value>Button name can not be over 125, please re-enter!</value>
+  </data>
+  <data name="EPESC0000123" xml:space="preserve">
+    <value>Button to display</value>
+  </data>
+  <data name="EPESC0000124" xml:space="preserve">
+    <value>Button Tip</value>
+  </data>
+  <data name="EPESC0000043" xml:space="preserve">
+    <value>Call mode allows up to enter one, please re-enter!</value>
+  </data>
+  <data name="EPESC0000044" xml:space="preserve">
+    <value>Call path allows up to 500 input, please re-enter!</value>
+  </data>
+  <data name="EPESC0000184" xml:space="preserve">
+    <value>Call service failed, error message:[{0}]</value>
+  </data>
+  <data name="EPESC0000178" xml:space="preserve">
+    <value>Can not add form to root node, please add sub-folder first.</value>
+  </data>
+  <data name="EPESC0000170" xml:space="preserve">
+    <value>Can not change the child groups' authorities!</value>
+  </data>
+  <data name="EPESC0000122" xml:space="preserve">
+    <value>Can not select &amp;quot;multiple steps&amp;quot;</value>
+  </data>
+  <data name="EPESC0000070" xml:space="preserve">
+    <value>Cancel Add</value>
+  </data>
+  <data name="EPESC0000117" xml:space="preserve">
+    <value>Cancel the system parameters change</value>
+  </data>
+  <data name="EPESC0000029" xml:space="preserve">
+    <value>Change password failed. Please try again.</value>
+  </data>
+  <data name="EPESC0000054" xml:space="preserve">
+    <value>Child nodes can not exceed 999!</value>
+  </data>
+  <data name="EPESC0000140" xml:space="preserve">
+    <value>Chinese authorities were not more than 50, please re-enter!</value>
+  </data>
+  <data name="EPESC0000132" xml:space="preserve">
+    <value>Chinese names can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000133" xml:space="preserve">
+    <value>Chinese names can not be more than 20, please re-enter!</value>
+  </data>
+  <data name="EPESC0000188" xml:space="preserve">
+    <value>Control information</value>
+  </data>
+  <data name="EPESC0000190" xml:space="preserve">
+    <value>Control name</value>
+  </data>
+  <data name="EPESC0000119" xml:space="preserve">
+    <value>Daemon call failed! {0}</value>
+  </data>
+  <data name="EPESC0000057" xml:space="preserve">
+    <value>Daemon call failed! {0} sqlcode is {1} {2}</value>
+  </data>
+  <data name="EPESC0000085" xml:space="preserve">
+    <value>Database operation error SQLCODE: {0} msg: {1}</value>
+  </data>
+  <data name="EPESC0000105" xml:space="preserve">
+    <value>Default group</value>
+  </data>
+  <data name="EPESC0000065" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="EPESC0000075" xml:space="preserve">
+    <value>Delete failed</value>
+  </data>
+  <data name="EPESC0000055" xml:space="preserve">
+    <value>Delete failed: {0}</value>
+  </data>
+  <data name="EPESC0000023" xml:space="preserve">
+    <value>Delete this user&amp;#39;s login information?</value>
+  </data>
+  <data name="EPESC0000074" xml:space="preserve">
+    <value>Deleted successfully</value>
+  </data>
+  <data name="EPESC0000141" xml:space="preserve">
+    <value>Department can not exceed the upper 50, please re-enter!</value>
+  </data>
+  <data name="EPESC0000135" xml:space="preserve">
+    <value>Department logo can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000142" xml:space="preserve">
+    <value>Department logo can not be more than two, please re-enter!</value>
+  </data>
+  <data name="EPESC0000137" xml:space="preserve">
+    <value>Department number can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000138" xml:space="preserve">
+    <value>Department number can not be over 18, please re-enter!</value>
+  </data>
+  <data name="EPESC0000106" xml:space="preserve">
+    <value>Department to obtain information about users under the jurisdiction of the error: {0}</value>
+  </data>
+  <data name="EPESC0000139" xml:space="preserve">
+    <value>Departments Chinese name can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000158" xml:space="preserve">
+    <value>Describe the set of books can not be empty, please re-enter</value>
+  </data>
+  <data name="EPESC0000039" xml:space="preserve">
+    <value>Description input screen allows a maximum of 80, please re-enter!</value>
+  </data>
+  <data name="EPESC0000161" xml:space="preserve">
+    <value>Dynamic libraries can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000040" xml:space="preserve">
+    <value>Dynamic library must be numbers, letters or underscores plus &amp;#39;. DLL&amp;#39; Please re-enter!</value>
+  </data>
+  <data name="EPESC0000136" xml:space="preserve">
+    <value>Effective number of days can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000187" xml:space="preserve">
+    <value>Effective number of days cannot exceed 180 days</value>
+  </data>
+  <data name="EPESC0000034" xml:space="preserve">
+    <value>Enter the information is not valid</value>
+  </data>
+  <data name="EPESC0000009" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="EPESC0000053" xml:space="preserve">
+    <value>F1-F12 button when the named type of operation in order to select the &amp;quot;multiple steps&amp;quot;!</value>
+  </data>
+  <data name="EPESC0000062" xml:space="preserve">
+    <value>Failed to load</value>
+  </data>
+  <data name="EPESC0000192" xml:space="preserve">
+    <value>FNAME can not be null!</value>
+  </data>
+  <data name="EPESC0000195" xml:space="preserve">
+    <value>Form code</value>
+  </data>
+  <data name="EPESC0000194" xml:space="preserve">
+    <value>Form name</value>
+  </data>
+  <data name="EPESC0000199" xml:space="preserve">
+    <value>Function button</value>
+  </data>
+  <data name="EPESC0000080" xml:space="preserve">
+    <value>Give up</value>
+  </data>
+  <data name="EPESC0000128" xml:space="preserve">
+    <value>Group administrators can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000127" xml:space="preserve">
+    <value>Group description allows a maximum of 100 input, please re-enter!</value>
+  </data>
+  <data name="EPESC0000125" xml:space="preserve">
+    <value>Group name can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000171" xml:space="preserve">
+    <value>Group name can not be longer than 127, please retry</value>
+  </data>
+  <data name="EPESC0000042" xml:space="preserve">
+    <value>Icon allows you to enter up to 3, please re-enter!</value>
+  </data>
+  <data name="EPESC0000061" xml:space="preserve">
+    <value>Information for APPNAME error: {0}</value>
+  </data>
+  <data name="EPESC0000120" xml:space="preserve">
+    <value>Initialization Password</value>
+  </data>
+  <data name="EPESC0000088" xml:space="preserve">
+    <value>Inquiry</value>
+  </data>
+  <data name="EPESC0000129" xml:space="preserve">
+    <value>Job number can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000130" xml:space="preserve">
+    <value>Job number not less than three, please re-enter!</value>
+  </data>
+  <data name="EPESC0000027" xml:space="preserve">
+    <value>Like the new password and user name, please re-enter.</value>
+  </data>
+  <data name="EPESC0000026" xml:space="preserve">
+    <value>Like the old password and new password, please re-enter.</value>
+  </data>
+  <data name="EPESC0000110" xml:space="preserve">
+    <value>Logged in user without permission to view the group members under!</value>
+  </data>
+  <data name="EPESC0000014" xml:space="preserve">
+    <value>Logged-on user, forced to change the password.</value>
+  </data>
+  <data name="EPESC0000016" xml:space="preserve">
+    <value>Login failed for user does not exist.</value>
+  </data>
+  <data name="EPESC0000019" xml:space="preserve">
+    <value>Login failed for user null and void.</value>
+  </data>
+  <data name="EPESC0000018" xml:space="preserve">
+    <value>Login failed for user permanently locked. Please contact management.</value>
+  </data>
+  <data name="EPESC0000017" xml:space="preserve">
+    <value>Login failed for user temporarily locked. Please log in later.</value>
+  </data>
+  <data name="EPESC0000011" xml:space="preserve">
+    <value>Login failed, please check and try again.</value>
+  </data>
+  <data name="EPESC0000021" xml:space="preserve">
+    <value>Login failed, the system memory errors.</value>
+  </data>
+  <data name="EPESC0000020" xml:space="preserve">
+    <value>Login fails, the database operation failed.</value>
+  </data>
+  <data name="EPESC0000015" xml:space="preserve">
+    <value>Login fails, the password is incorrect.</value>
+  </data>
+  <data name="EPESC0000067" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="EPESC0000089" xml:space="preserve">
+    <value>Modified group resource rights, whether to save?</value>
+  </data>
+  <data name="EPESC0000103" xml:space="preserve">
+    <value>Modified resource group permissions to save?</value>
+  </data>
+  <data name="EPESC0000177" xml:space="preserve">
+    <value>Modify</value>
+  </data>
+  <data name="EPESC0000032" xml:space="preserve">
+    <value>Multi-step operation</value>
+  </data>
+  <data name="EPESC0000147" xml:space="preserve">
+    <value>Name can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000148" xml:space="preserve">
+    <value>Name can not be over 128, please re-enter!</value>
+  </data>
+  <data name="EPESC0000093" xml:space="preserve">
+    <value>Nested query mode can not modify the permissions!</value>
+  </data>
+  <data name="EPESC0000063" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="EPESC0000064" xml:space="preserve">
+    <value>New Copy</value>
+  </data>
+  <data name="EPESC0000068" xml:space="preserve">
+    <value>New directory</value>
+  </data>
+  <data name="EPESC0000028" xml:space="preserve">
+    <value>New passwords do not match, please re-enter.</value>
+  </data>
+  <data name="EPESC0000131" xml:space="preserve">
+    <value>No. can not work more than [{0}], please re-enter!</value>
+  </data>
+  <data name="EPESC0000111" xml:space="preserve">
+    <value>Node can only choose the same level!</value>
+  </data>
+  <data name="EPESC0000081" xml:space="preserve">
+    <value>Node name can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000082" xml:space="preserve">
+    <value>Node name can not be over 128, please re-enter!</value>
+  </data>
+  <data name="EPESC0000091" xml:space="preserve">
+    <value>Non-maintenance mode can not modify the permissions!</value>
+  </data>
+  <data name="EPESC0000092" xml:space="preserve">
+    <value>Not the user authorization, user-owned or managed by the operating groups!</value>
+  </data>
+  <data name="EPESC0000012" xml:space="preserve">
+    <value>Note: invalid password, the password and login the same user name, please change your password.</value>
+  </data>
+  <data name="EPESC0000099" xml:space="preserve">
+    <value>Number out of range query screen, enter the query limit results!</value>
+  </data>
+  <data name="EPESC0000025" xml:space="preserve">
+    <value>Old password input error, please re-enter.</value>
+  </data>
+  <data name="EPESC0000181" xml:space="preserve">
+    <value>Only query forms &amp; buttons which are not in res-groups. Tip:use form name as query condition.</value>
+  </data>
+  <data name="EPESC0000182" xml:space="preserve">
+    <value>Only query forms which are not in Tree. Tip:use form name as query condition.</value>
+  </data>
+  <data name="EPESC0000183" xml:space="preserve">
+    <value>Only query resources which are not in res-groups. Tip:use resource name as query condition.</value>
+  </data>
+  <data name="EPESC0000030" xml:space="preserve">
+    <value>Operating mode</value>
+  </data>
+  <data name="EPESC0000153" xml:space="preserve">
+    <value>Operation failed, please check and try again!</value>
+  </data>
+  <data name="EPESC0000157" xml:space="preserve">
+    <value>Operation failed: {0}, please check and try again!</value>
+  </data>
+  <data name="EPESC0000169" xml:space="preserve">
+    <value>Operation failed! please press F4 and retry!</value>
+  </data>
+  <data name="EPESC0000071" xml:space="preserve">
+    <value>Operation failed! Please enter the maintenance mode for sorting operation!</value>
+  </data>
+  <data name="EPESC0000156" xml:space="preserve">
+    <value>Operation successful!</value>
+  </data>
+  <data name="EPESC0000112" xml:space="preserve">
+    <value>Page {0} / {1} page</value>
+  </data>
+  <data name="EPESC0000175" xml:space="preserve">
+    <value>Permanent Lock Error Num</value>
+  </data>
+  <data name="EPESC0000174" xml:space="preserve">
+    <value>Permanent Lock Monitoring Time</value>
+  </data>
+  <data name="EPESC0000102" xml:space="preserve">
+    <value>Please assign the appropriate permissions to the resource!</value>
+  </data>
+  <data name="EPESC0000094" xml:space="preserve">
+    <value>Please check the button corresponding to the picture!</value>
+  </data>
+  <data name="EPESC0000098" xml:space="preserve">
+    <value>Please enter at least two screen names!</value>
+  </data>
+  <data name="EPESC0000155" xml:space="preserve">
+    <value>Please enter the maintenance mode operation!</value>
+  </data>
+  <data name="EPESC0000051" xml:space="preserve">
+    <value>Please enter the name of more than two buttons!</value>
+  </data>
+  <data name="EPESC0000109" xml:space="preserve">
+    <value>Please enter the two check characters</value>
+  </data>
+  <data name="EPESC0000038" xml:space="preserve">
+    <value>Please enter two or more screen names!</value>
+  </data>
+  <data name="EPESC0000108" xml:space="preserve">
+    <value>Please select the sub!</value>
+  </data>
+  <data name="EPESC0000024" xml:space="preserve">
+    <value>Prompt</value>
+  </data>
+  <data name="EPESC0000151" xml:space="preserve">
+    <value>Query information failed set of books</value>
+  </data>
+  <data name="EPESC0000180" xml:space="preserve">
+    <value>Res-group desc. can not be empty, please input</value>
+  </data>
+  <data name="EPESC0000179" xml:space="preserve">
+    <value>Res-group name can not be empty, please input</value>
+  </data>
+  <data name="EPESC0000186" xml:space="preserve">
+    <value>Resource {1} is already assigned to a resource group:  {2} in Company {0}</value>
+  </data>
+  <data name="EPESC0000185" xml:space="preserve">
+    <value>Resource {1} was not assigned to any resource groups in Company{0}</value>
+  </data>
+  <data name="EPESC0000083" xml:space="preserve">
+    <value>Resource description can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000150" xml:space="preserve">
+    <value>Resource description can not exceed 80, please re-enter!</value>
+  </data>
+  <data name="EPESC0000084" xml:space="preserve">
+    <value>Resource Description not over 80, please re-enter!</value>
+  </data>
+  <data name="EPESC0000200" xml:space="preserve">
+    <value>Resource group code</value>
+  </data>
+  <data name="EPESC0000196" xml:space="preserve">
+    <value>Resource group name</value>
+  </data>
+  <data name="EPESC0000149" xml:space="preserve">
+    <value>Resource type can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000066" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="EPESC0000079" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="EPESC0000035" xml:space="preserve">
+    <value>Screen description can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000037" xml:space="preserve">
+    <value>Screen name allows up to 128-bit input, please re-enter!</value>
+  </data>
+  <data name="EPESC0000164" xml:space="preserve">
+    <value>Screen name can not be empty base! Please re-enter</value>
+  </data>
+  <data name="EPESC0000033" xml:space="preserve">
+    <value>Screen name can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000163" xml:space="preserve">
+    <value>Screen name can not be empty! Please re-enter</value>
+  </data>
+  <data name="EPESC0000049" xml:space="preserve">
+    <value>Screen name can not be over 125, please re-enter!</value>
+  </data>
+  <data name="EPESC0000167" xml:space="preserve">
+    <value>Screen name can not be over 80! Please re-enter</value>
+  </data>
+  <data name="EPESC0000165" xml:space="preserve">
+    <value>Screen name can not reference more than 80! Please re-enter</value>
+  </data>
+  <data name="EPESC0000121" xml:space="preserve">
+    <value>Screen name must be a combination of uppercase letters and numbers Please enter again!</value>
+  </data>
+  <data name="EPESC0000097" xml:space="preserve">
+    <value>Select groups have permission to query the resources</value>
+  </data>
+  <data name="EPESC0000101" xml:space="preserve">
+    <value>Select the group or user has permission to query the resources</value>
+  </data>
+  <data name="EPESC0000058" xml:space="preserve">
+    <value>Single-step operation</value>
+  </data>
+  <data name="EPESC0000096" xml:space="preserve">
+    <value>Sub-group permissions for the query button, can not be modified!</value>
+  </data>
+  <data name="EPESC0000036" xml:space="preserve">
+    <value>Subsystem can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000162" xml:space="preserve">
+    <value>Subsystem parameter is incorrect!</value>
+  </data>
+  <data name="EPESC0000077" xml:space="preserve">
+    <value>Successful implementation</value>
+  </data>
+  <data name="EPESC0000056" xml:space="preserve">
+    <value>Successful implementation of the</value>
+  </data>
+  <data name="EPESC0000118" xml:space="preserve">
+    <value>Successful implementation of the sqlcode is {0}</value>
+  </data>
+  <data name="EPESC0000115" xml:space="preserve">
+    <value>Successful initialization Password</value>
+  </data>
+  <data name="EPESC0000069" xml:space="preserve">
+    <value>Successfully added</value>
+  </data>
+  <data name="EPESC0000193" xml:space="preserve">
+    <value>System cannot be hung subgroups under the group, set the roles under Add users directly to that group!</value>
+  </data>
+  <data name="EPESC0000173" xml:space="preserve">
+    <value>Temporary Lock Error Num</value>
+  </data>
+  <data name="EPESC0000176" xml:space="preserve">
+    <value>Temporary Lock Last Time</value>
+  </data>
+  <data name="EPESC0000172" xml:space="preserve">
+    <value>Temporary Lock Monitoring Time</value>
+  </data>
+  <data name="EPESC0000166" xml:space="preserve">
+    <value>The key code, key code name can not be over 30! Please re-enter</value>
+  </data>
+  <data name="EPESC0000013" xml:space="preserve">
+    <value>The same user name and password, do not allow login.</value>
+  </data>
+  <data name="EPESC0000113" xml:space="preserve">
+    <value>This page has unsaved data, confirm the page?</value>
+  </data>
+  <data name="EPESC0000144" xml:space="preserve">
+    <value>Type of action can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000076" xml:space="preserve">
+    <value>Undelete</value>
+  </data>
+  <data name="EPESC0000201" xml:space="preserve">
+    <value>Upper sector number cannot be the same as sector! Without the upper sector, the upper sector, optional</value>
+  </data>
+  <data name="EPESC0000104" xml:space="preserve">
+    <value>User {0} {1} with the permission, which comes from the following groups:</value>
+  </data>
+  <data name="EPESC0000007" xml:space="preserve">
+    <value>User name and password can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000006" xml:space="preserve">
+    <value>User password can not be a continuous character, please re-enter!</value>
+  </data>
+  <data name="EPESC0000001" xml:space="preserve">
+    <value>User password can not be less than 6, please re-enter!</value>
+  </data>
+  <data name="EPESC0000005" xml:space="preserve">
+    <value>User password can not be repeating characters, please re-enter!</value>
+  </data>
+  <data name="EPESC0000003" xml:space="preserve">
+    <value>User password can not contain spaces, please re-enter!</value>
+  </data>
+  <data name="EPESC0000004" xml:space="preserve">
+    <value>User password can not contain special characters, please re-enter!</value>
+  </data>
+  <data name="EPESC0000022" xml:space="preserve">
+    <value>User password expiration, forced to change the password.</value>
+  </data>
+  <data name="EPESC0000002" xml:space="preserve">
+    <value>User password is too long, not more than 20, please re-enter!</value>
+  </data>
+  <data name="EPESC0000010" xml:space="preserve">
+    <value>Username [{0}] there is a space, please re-enter!</value>
+  </data>
+  <data name="EPESC0000134" xml:space="preserve">
+    <value>Validity can not be empty, please re-enter!</value>
+  </data>
+  <data name="EPESC0000008" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="EPESC0000154" xml:space="preserve">
+    <value>Whether to cancel the associated set of books [{0}] under the group [{1}]?</value>
+  </data>
+  <data name="EPESC0000152" xml:space="preserve">
+    <value>Whether to delete set of books [{0}]?</value>
+  </data>
+  <data name="EPESC0000160" xml:space="preserve">
+    <value>Whether to exit maintenance mode?</value>
+  </data>
+  <data name="EPESC0000095" xml:space="preserve">
+    <value>You are not the group manager, no right to change the permissions!</value>
+  </data>
+  <data name="EPESC0000087" xml:space="preserve">
+    <value>You do not have permission to query the group!</value>
+  </data>
+  <data name="EPESC0000090" xml:space="preserve">
+    <value>You do not have permission to query the group!</value>
+  </data>
+</root>

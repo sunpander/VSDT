@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{FE5A81B1-EBE2-49F3-9C61-BC84D1B75FC2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite4", "..\..\..\..\Visual Studio 2008\WebSites\WebSite4", "{92F19ACF-5652-45E8-95B5-80F33B768B0B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebSite4"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Visual Studio 2008\WebSites\WebSite4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite4\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSite4"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Visual Studio 2008\WebSites\WebSite4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite4\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3996"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite6", "..\..\..\..\Visual Studio 2008\WebSites\WebSite6", "{C1BF9FC4-2A01-4B67-AB6E-B6FC4136CF89}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjectReferences = "{08079AFF-9A91-4387-8792-C731D18D4373}|Google.Apis.Samples.Helper.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/WebSite6"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Visual Studio 2008\WebSites\WebSite6\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite6\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSite6"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Visual Studio 2008\WebSites\WebSite6\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSite6\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4841"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteVerification.VerifySite", "F:\google\google-api-dotnet-client-1.2.4737-beta.samples\SiteVerification.VerifySite\SiteVerification.VerifySite.csproj", "{BBEE8AEC-77B6-4A22-8293-9AAAB4FFBF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleApis.SampleHelper", "F:\google\google-api-dotnet-client-1.2.4737-beta.samples\SampleHelper\GoogleApis.SampleHelper.csproj", "{08079AFF-9A91-4387-8792-C731D18D4373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.SimpleOAuth2", "F:\google\google-api-dotnet-client-1.2.4737-beta.samples\Tasks.SimpleOAuth2\Tasks.SimpleOAuth2.csproj", "{F3E675B8-24D9-48E7-9C5C-E009CB6E21F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.ListProducts", "F:\google\google-api-dotnet-client-1.2.4737-beta.samples\Shopping.ListProducts\Shopping.ListProducts.csproj", "{DD020FB0-CD42-4BB6-BDC0-F4E692027428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.CreateTasks", "F:\google\google-api-dotnet-client-1.2.4737-beta.samples\Tasks.CreateTasks\Tasks.CreateTasks.csproj", "{7A03215D-1ED3-4C21-BEBA-83AC31802CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks.WinForms.NoteMgr", "F:\google\google-api-dotnet-client-1.2.4737-beta.samples\Tasks.WinForms.NoteMgr\Tasks.WinForms.NoteMgr.csproj", "{31ED8CC0-4304-4689-A3BC-BC5BAD4970F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlShortener.ShortenURL", "F:\google\google-api-dotnet-client-1.2.4737-beta.samples\UrlShortener.ShortenURL\UrlShortener.ShortenURL.csproj", "{7FA90B5E-2146-49BF-8ED9-E35E05A52020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE5A81B1-EBE2-49F3-9C61-BC84D1B75FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5A81B1-EBE2-49F3-9C61-BC84D1B75FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5A81B1-EBE2-49F3-9C61-BC84D1B75FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5A81B1-EBE2-49F3-9C61-BC84D1B75FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F19ACF-5652-45E8-95B5-80F33B768B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F19ACF-5652-45E8-95B5-80F33B768B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F19ACF-5652-45E8-95B5-80F33B768B0B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F19ACF-5652-45E8-95B5-80F33B768B0B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C1BF9FC4-2A01-4B67-AB6E-B6FC4136CF89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BF9FC4-2A01-4B67-AB6E-B6FC4136CF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BF9FC4-2A01-4B67-AB6E-B6FC4136CF89}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BF9FC4-2A01-4B67-AB6E-B6FC4136CF89}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BBEE8AEC-77B6-4A22-8293-9AAAB4FFBF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEE8AEC-77B6-4A22-8293-9AAAB4FFBF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEE8AEC-77B6-4A22-8293-9AAAB4FFBF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEE8AEC-77B6-4A22-8293-9AAAB4FFBF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08079AFF-9A91-4387-8792-C731D18D4373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08079AFF-9A91-4387-8792-C731D18D4373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08079AFF-9A91-4387-8792-C731D18D4373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08079AFF-9A91-4387-8792-C731D18D4373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E675B8-24D9-48E7-9C5C-E009CB6E21F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E675B8-24D9-48E7-9C5C-E009CB6E21F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E675B8-24D9-48E7-9C5C-E009CB6E21F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E675B8-24D9-48E7-9C5C-E009CB6E21F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD020FB0-CD42-4BB6-BDC0-F4E692027428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD020FB0-CD42-4BB6-BDC0-F4E692027428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD020FB0-CD42-4BB6-BDC0-F4E692027428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD020FB0-CD42-4BB6-BDC0-F4E692027428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A03215D-1ED3-4C21-BEBA-83AC31802CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A03215D-1ED3-4C21-BEBA-83AC31802CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A03215D-1ED3-4C21-BEBA-83AC31802CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A03215D-1ED3-4C21-BEBA-83AC31802CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31ED8CC0-4304-4689-A3BC-BC5BAD4970F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31ED8CC0-4304-4689-A3BC-BC5BAD4970F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31ED8CC0-4304-4689-A3BC-BC5BAD4970F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31ED8CC0-4304-4689-A3BC-BC5BAD4970F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA90B5E-2146-49BF-8ED9-E35E05A52020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA90B5E-2146-49BF-8ED9-E35E05A52020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA90B5E-2146-49BF-8ED9-E35E05A52020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA90B5E-2146-49BF-8ED9-E35E05A52020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

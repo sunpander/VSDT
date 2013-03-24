@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A64C0EC6-7A14-4DA6-9482-626CB8D84A06}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EP</RootNamespace>
+    <AssemblyName>EPES</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\EP\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\EP\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.8.0, Culture=neutral, PublicKeyToken=646cb77dd9f4ebfa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EP\DevExpress.Data.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v9.2, Version=9.2.8.0, Culture=neutral, PublicKeyToken=646cb77dd9f4ebfa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EP\DevExpress.Utils.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.2, Version=9.2.8.0, Culture=neutral, PublicKeyToken=646cb77dd9f4ebfa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EP\DevExpress.XtraBars.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v9.2, Version=9.2.8.0, Culture=neutral, PublicKeyToken=646cb77dd9f4ebfa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EP\DevExpress.XtraEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v9.2, Version=9.2.8.0, Culture=neutral, PublicKeyToken=646cb77dd9f4ebfa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EP\DevExpress.XtraGrid.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v9.2, Version=9.2.8.0, Culture=neutral, PublicKeyToken=646cb77dd9f4ebfa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EP\DevExpress.XtraLayout.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v9.2, Version=9.2.8.0, Culture=neutral, PublicKeyToken=646cb77dd9f4ebfa, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v9.2, Version=9.2.8.0, Culture=neutral, PublicKeyToken=646cb77dd9f4ebfa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\EP\DevExpress.XtraTreeList.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="EF, Version=5.0.11.26816, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\BSMesWare\BGZZM0\EP\EF.DLL</HintPath>
+    </Reference>
+    <Reference Include="EI, Version=5.0.11.31973, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\BSMesWare\BGZZM0\EP\EI.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Users\Administrator\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\Lib\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Users\Administrator\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\Lib\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Users\Administrator\Documents\Microsoft Enterprise Library 5.0 - Hands On Labs\Lib\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear, Version=6.0.3.190, Culture=neutral, PublicKeyToken=39c186f5904944ec, processorArchitecture=MSIL">
+      <HintPath>D:\BSMesWare\BGZZM0\EP\SpreadsheetGear.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UIAutomationTypes">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\CDBCommand.cs" />
+    <Compile Include="Server\CConstString.cs" />
+    <Compile Include="Server\CServerManager.cs" />
+    <Compile Include="Server\DbTesbutton.cs" />
+    <Compile Include="Server\DbTreeInfo.cs" />
+    <Compile Include="Server\EPESCommon.cs" />
+    <Compile Include="DataSetEPESSUBJ.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetEPESSUBJ.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetESOBJ.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetESOBJ.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetEXP.cs">
+      <DependentUpon>DataSetEXP.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetEXP.Designer.cs">
+      <DependentUpon>DataSetEXP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetEXP31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetEXP3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetGFB.cs">
+      <DependentUpon>DataSetGFB.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetGFB.designer.cs">
+      <DependentUpon>DataSetGFB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetGFB1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetGFB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetGFB2.cs">
+      <DependentUpon>DataSetGFB2.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSetGFB2.designer.cs">
+      <DependentUpon>DataSetGFB2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetGFB21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetGFB2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EPES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EPES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="EPES.en.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EPES.en.resx</DependentUpon>
+    </Compile>
+    <Compile Include="EPES.zh-CHT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EPES.zh-CHT.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FormEPESAUTH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEPESAUTH.Designer.cs">
+      <DependentUpon>FormEPESAUTH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormResource.Designer.cs">
+      <DependentUpon>FormResource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEPESSUBJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEPESSUBJ.Designer.cs">
+      <DependentUpon>FormEPESSUBJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EPES.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EPES.en.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EPES.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EPES.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EPES.zh-CHT.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EPES.zh-CHT.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEPESAUTH.resx">
+      <DependentUpon>FormEPESAUTH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormResource.resx">
+      <DependentUpon>FormResource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEPESSUBJ.resx">
+      <DependentUpon>FormEPESSUBJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSetEPESSUBJ.xsc">
+      <DependentUpon>DataSetEPESSUBJ.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEPESSUBJ.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetEPESSUBJ.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetEPESSUBJ.xss">
+      <DependentUpon>DataSetEPESSUBJ.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetESOBJ.xsc">
+      <DependentUpon>DataSetESOBJ.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetESOBJ.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetESOBJ.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetESOBJ.xss">
+      <DependentUpon>DataSetESOBJ.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEXP.xsc">
+      <DependentUpon>DataSetEXP.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEXP.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetEXP1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetEXP.xss">
+      <DependentUpon>DataSetEXP.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetGFB.xsc">
+      <DependentUpon>DataSetGFB.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetGFB.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetGFB1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetGFB.xss">
+      <DependentUpon>DataSetGFB.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetGFB2.xsc">
+      <DependentUpon>DataSetGFB2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetGFB2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetGFB21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetGFB2.xss">
+      <DependentUpon>DataSetGFB2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="DataSetEXP3.xsc">
+      <DependentUpon>DataSetEXP3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEXP3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetEXP31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetEXP3.xss">
+      <DependentUpon>DataSetEXP3.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
